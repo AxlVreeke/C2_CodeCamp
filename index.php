@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Hello World!</title>
 </head>
-    <head>
-        <?php require_once'header.php' ?>
-    </head>
-    <body>
-        <p>Hello World!</p>
-    </body>
-    <footer>
-        <?php require_once'footer.php' ?>
-    </footer>
+<head>
+    <nav class="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <div class="dot"></div>
+    </nav>
+</head>
+<body>
+    <p>Hello World!</p>
+</body>
+<footer>
+    <p></p>
+</footer>
 </html>
