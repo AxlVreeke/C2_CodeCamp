@@ -17,6 +17,8 @@
   <div class="nav-wrapper">
     <!-- Navbar Logo -->
     <div class="logo">
+    <!-- <img src="images/codecamplogo.png" alt="logo_codecamp"> -->
+
       <!-- Logo Placeholder for Inlustration -->
       <a href="#home"><i class="fa fa-angellist"></i> Logo</a>
     </div>
@@ -47,6 +49,7 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
 </div>
+
 </body>
 <footer>
     <p></p>
