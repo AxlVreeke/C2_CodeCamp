@@ -8,14 +8,18 @@
   body {
           font-family: Lato, Helvetica, Arial, sans-serif;
   }
-  
+  .logo_codecamp{
+    height: 57px;
+  }
   a {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     text-decoration: none;
   }
-  
+  body{
+    background-color: #A6A2A2;
+  }
   
   /*======================================================
                             Navbar
@@ -29,6 +33,7 @@
     line-height: 60px;
     width: 100vw;
     z-index: 10;
+    border-bottom: 1px #0d1a26 solid;
   }
   
   .nav-wrapper {

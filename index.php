@@ -17,10 +17,10 @@
   <div class="nav-wrapper">
     <!-- Navbar Logo -->
     <div class="logo">
-    <!-- <img src="images/codecamplogo.png" alt="logo_codecamp"> -->
+      <img src="images/codecamplogo.png" alt="logo_codecamp" class="logo_codecamp">
 
       <!-- Logo Placeholder for Inlustration -->
-      <a href="#home"><i class="fa fa-angellist"></i> Logo</a>
+      <!-- <a href="#home"><i class="fa fa-angellist"></i> Logo</a> -->
     </div>
 
     <!-- Navbar Links -->
