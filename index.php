@@ -7,7 +7,9 @@
   <?php require_once'header.php' ?>
 </header>
 <body>
-
+  <div class="container">
+    <p>Hello WOrld!</p>
+  </div>
 </body>
 <footer>
 <?php require_once'footer.php' ?>
