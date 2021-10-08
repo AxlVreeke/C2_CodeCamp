@@ -8,7 +8,19 @@
     <title>Hello World!</title>
     <?php require_once'header.php' ?>
 </head>
-  
+<body>
+  <div class="container">
+    <?php
+    $t=time();
+    ?>
+    <p>
+    <?php     
+      echo($t . "<br>");
+      echo(date("Y-m-d",$t));
+    ?>
+    </p>
+  </div>
+</body>
 <footer>
     <p></p>
 </footer>
