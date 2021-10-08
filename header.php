@@ -13,10 +13,10 @@
 
     <!-- Navbar Links -->
     <ul id="menu">
-      <li><a href="#home">Home</a></li><!--
-   --><li><a href="#services">Services</a></li><!--
-   --><li><a href="#about">About</a></li><!--
-   --><li><a href="#contact">Contact</a></li>
+    <li><a href="index.php"class="test">Home</a></li>
+    <li><a href="resources/services.php"class="test">Services</a></li>
+      <li><a href="resources/about.php"class="test">About</a></li>
+      <li><a href="resources/contact.php"class="test">Contact</a></li>
     </ul>
   </div>
 </nav>
