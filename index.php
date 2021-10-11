@@ -6,11 +6,13 @@
 <header>
   <?php require_once'header.php' ?>
 </header>
-<body>
-  <div class="container">
-    <p>Hello WOrld!</p>
+<body onload="startTime()">
+<div class="container">
+  <div class="live-time">
+    <p><?php  $today = date("F j"); echo $today; ?></p>
+    <div id="time"></div>
   </div>
-</body>
+</div>
 <footer>
 <?php require_once'footer.php' ?>
 </footer>

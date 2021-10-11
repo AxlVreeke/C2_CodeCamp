@@ -7,5 +7,5 @@
     <title>CodeCamp</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
-
+    <script src="JS/script.js"></script>
 </head>

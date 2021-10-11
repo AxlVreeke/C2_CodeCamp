@@ -17,7 +17,15 @@
     font-size: inherit;
     text-decoration: none;
   }
-  body{
-    background-color: #A6A2A2;
-  }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.live-time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FCA311;
+  font-family: 'Roboto', sans-serif;
+}
