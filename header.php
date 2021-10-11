@@ -1,5 +1,4 @@
-
-  <?php require_once'head.php' ?>
+<?php require_once'head.php' ?>
 <header>
   <nav>
     <div class="header-container">

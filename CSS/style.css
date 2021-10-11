@@ -5,18 +5,12 @@
     padding: 0;
   }
   
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-  .logo_codecamp{
-    height: 57px;
-  }
-  a {
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    text-decoration: none;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.logo_codecamp{
+  height: 57px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
