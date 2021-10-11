@@ -6,16 +6,10 @@
   }
   
   body {
-          font-family: Lato, Helvetica, Arial, sans-serif;
+    font-family: Lato, Helvetica, Arial, sans-serif;
   }
   .logo_codecamp{
     height: 57px;
-  }
-  a {
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    text-decoration: none;
   }
   body{
     background-color: #A6A2A2;
