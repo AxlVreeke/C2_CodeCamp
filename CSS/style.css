@@ -4,14 +4,17 @@
     margin: 0;
     padding: 0;
   }
-  
-  body {
-    font-family: Lato, Helvetica, Arial, sans-serif;
-  }
-  .logo_codecamp{
-    height: 57px;
-  }
-  body{
-    background-color: #A6A2A2;
-  }
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+.logo_codecamp{
+  height: 57px;
+}
+body{
+  background-color: #A6A2A2;
+}
 
+.container{
+  width: 70%;
+  margin: auto;
+}
