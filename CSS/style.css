@@ -18,3 +18,11 @@ body{
   width: 70%;
   margin: auto;
 }
+
+/* header styling */
+
+.header-container{
+  justify-content: space-between;
+}
+
+/* header styling */
