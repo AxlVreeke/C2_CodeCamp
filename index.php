@@ -8,7 +8,7 @@
 </header>
 <body>
   <div class="container">
-    <p>Hello WOrld!</p>
+    <p>Hello World!</p>
   </div>
 </body>
 <footer>
