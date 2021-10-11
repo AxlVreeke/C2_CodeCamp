@@ -49,13 +49,11 @@ padding: 10px 0px 10px 0px;
 .footer_container{
   width: 70%;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer img{
 width: 50px;
-}
-
-footer a{
- color: #E5E5E5;
- text-decoration: none;
 }
