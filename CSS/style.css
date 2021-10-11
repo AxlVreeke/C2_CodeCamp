@@ -1,38 +1,52 @@
 * {
-    border: 0;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 .logo_codecamp{
-  height: 57px;
+height: 57px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .live-time{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: #FCA311;
-  font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 50px;
+font-weight: bold;
+color: #FCA311;
+font-family: 'Roboto', sans-serif;
 }
 
-.container{
-  width: 70%;
-  margin: auto;
-}
+
 
 /* header styling */
 
 .header-container{
-  justify-content: space-between;
+justify-content: space-between;
 }
 
-/* header styling */
+/* Footer Styling */
+footer{
+position:absolute;
+bottom:0;
+width:100%;
+background-color:#14213D;
+color: white;
+padding: 10px 0px 10px 0px;
+}
+
+footer img{
+width: 50px;
+}
+
+footer a{
+ color: #E5E5E5;
+ text-decoration: none;
+}
