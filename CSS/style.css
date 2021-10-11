@@ -6,7 +6,7 @@
   }
   
   body {
-          font-family: Lato, Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   .logo_codecamp{
     height: 57px;
@@ -29,3 +29,13 @@
   color: #FCA311;
   font-family: 'Roboto', sans-serif;
 }
+
+
+
+/* header styling */
+
+.header-container{
+  justify-content: space-between;
+}
+
+/* header styling */
