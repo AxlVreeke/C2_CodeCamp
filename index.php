@@ -5,7 +5,6 @@
   <!-- body -->
 <body>
   <div class="container">
-    <p>Hello World!</p>
   </div>
 </body>
 <!-- footer -->
