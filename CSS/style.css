@@ -3,11 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-font-family: 'Roboto', sans-serif;
-}
 .logo_codecamp{
 height: 57px;
 }
@@ -47,7 +45,7 @@ padding: 10px 0px 10px 0px;
 }
 
 .footer_container{
-  width: 70%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -55,5 +53,8 @@ padding: 10px 0px 10px 0px;
 }
 
 footer img{
-width: 50px;
+width: 60px;
 }
+footer img a{
+  text-decoration: none;
+  }
