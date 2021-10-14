@@ -111,6 +111,26 @@ nav{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* items */
+.text{
+  margin-top: 25px;
+  padding: 45px;
+  border-radius: 50px;
+  height: 100%;
+  border: black 1px solid;
+  overflow: auto;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+body{
+  overflow: hidden;
+}
+
+
 /* Footer Styling */
 footer{
 position:absolute;
