@@ -11,7 +11,7 @@ font-family: 'Roboto', sans-serif;
 .logo-codecamp{
   width: 250px;
   height: auto;
-  margin-left: 70%;
+  /* margin-left: 70%; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
@@ -23,6 +23,7 @@ font-size: 50px;
 font-weight: bold;
 color: black;
 font-family: 'Roboto', sans-serif;
+margin-top: 20px;
 }
 
 .container{
@@ -35,13 +36,19 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
-
+nav{
+  border-bottom: black solid 1px;
+  box-shadow: 3px;
+}
 /* header styling */
 
 .header-container{
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  width: 70%;
 }
 .dropdown {
   float: left;
@@ -58,6 +65,7 @@ font-family: 'Roboto', sans-serif;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  margin-top: 10px;
 }
 .button_home{
   font-size: 16px;
@@ -68,13 +76,14 @@ font-family: 'Roboto', sans-serif;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  margin-top: 10px;
 }
 .button_home:hover{
-  background-color: grey;
+  background-color: lightgray;
 }
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+  background-color: lightgray;
 }
 
 /* Dropdown content (hidden by default) */
@@ -99,7 +108,7 @@ font-family: 'Roboto', sans-serif;
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 /* Show the dropdown menu on hover */
