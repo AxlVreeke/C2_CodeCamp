@@ -2,9 +2,10 @@
 <header>
   <nav>
     <div class="header-container">
-      <div class="img-nav">
-        <img src="img/codecamplogo.png" class="logo-codecamp" alt="logo">
-      </div>
+
+    <div class="img-nav">
+      <img src="img/codecamplogo.png" class="logo-codecamp" alt="logo">
+    </div>
       <div class="buttons-nav">
       <div class="dropdown">
       <a href="index.php">
