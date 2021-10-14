@@ -3,7 +3,9 @@
   <nav>
     <div class="header-container">
     <div class="img-nav">
-      <img src="img/codecamplogo.png" alt="logo">
+      <a href="index.php">
+      <img src="img/codecamplogo.png" alt="logo" class="responsive">
+      </a>
     </div>
     <div class="buttons-nav">
       <a href="index.php">Home</a>
