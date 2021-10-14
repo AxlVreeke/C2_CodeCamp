@@ -3,15 +3,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-font-family: 'Roboto', sans-serif;
-}
-.logo-codecamp{
-  width: 250px;
-  height: auto;
-  /* margin-left: 70%; */
+.logo_codecamp{
+height: 57px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
@@ -146,7 +142,7 @@ padding: 10px 0px 10px 0px;
 }
 
 .footer_container{
-  width: 70%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -154,5 +150,8 @@ padding: 10px 0px 10px 0px;
 }
 
 footer img{
-width: 50px;
+width: 60px;
 }
+footer img a{
+  text-decoration: none;
+  }
