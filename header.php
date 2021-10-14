@@ -20,7 +20,7 @@
       <a href="resources/song-pagina/plug-in-baby.php">Plug in baby</a>
       <a href="resources/song-pagina/transylvia.php">Transylvia</a>
       <a href="resources/song-pagina/uprising.php">Uprising</a>
-      <a href="resources/song-pagina/we-are-the-champions.php">we are the champions</a>
+      <a href="resources/song-pagina/we-are-the-champions.php">We are the champions</a>
     </div>
       </div>
       <div class="dropdown">
