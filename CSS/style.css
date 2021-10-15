@@ -153,7 +153,15 @@ body{
   border-radius: 50px;
 }
 
+.red{
+  background-color: lightcoral;
+  border-radius: 50px;
+}
 
+.orange{
+  background-color: lightsalmon;
+  border-radius: 50px;
+}
 
 /* scrollbar */
 
