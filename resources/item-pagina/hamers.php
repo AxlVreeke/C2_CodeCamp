@@ -35,7 +35,7 @@ De vorm en grootte en het materiaal van de hamerkop en de lengte van de steel ha
           </p>
           </div> 
         <div class="img-boeken">
-          <img src="../../IMG/hamers.jpg" alt="boeken" class="img-item">
+          <img src="../../IMG/hamers.jpg" alt="hamer" class="img-item">
         </div> 
         </div>
       </div>
