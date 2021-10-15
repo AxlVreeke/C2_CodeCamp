@@ -35,6 +35,8 @@
             <a href="resources/item-pagina/cirkelzagen.php">Cirkel zagen</a>
             <a href="resources/item-pagina/hamers.php">Hamers</a>
             <a href="resources/item-pagina/kettingzagen.php">Kettingzagen</a>
+            <a href="resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
+            <a href="resources/item-pagina/handzagen.php">Handzagen</a>
           </div>
         </div>
         <div class="dropdown">
@@ -46,6 +48,7 @@
             <a href="resources/info-pagina/james-bond.php">James Bond</a>
             <a href="resources/info-pagina/luke-skywalker.php">Luke Skywalker</a>
             <a href="resources/info-pagina/timoty-dalton.php">Timoty Dalton</a>
+            <a href="resources/info-pagina/george-clooney.php">George Clooney</a>
           </div>
         </div>    
         <div class="dropdown">
