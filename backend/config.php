@@ -1,3 +1,5 @@
 <?php
 
-$base_url = 'http://localhost/C2_CodeCamp';
+$base_url = $_POST['C2_CodeCamp'];
+
+?>
