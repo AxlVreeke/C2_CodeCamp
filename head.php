@@ -7,4 +7,8 @@
     <title>CodeCamp</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="JS/script.js"></script>
+    <?php 
+        require_once'header.php';
+        require_once'footer.php';
+    ?>
 </head>

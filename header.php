@@ -4,7 +4,7 @@
     <div class="header-container">
 
     <div class="img-nav">
-      <img src="img/codecamplogo.png" class="logo-codecamp" alt="logo">
+      <img src="<?php echo $base_url; ?>img/codecamplogo.png" class="logo-codecamp" alt="logo">
     </div>
       <div class="buttons-nav">
       <div class="dropdown">
