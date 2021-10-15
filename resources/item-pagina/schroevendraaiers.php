@@ -33,7 +33,7 @@
 Schroevendraaiers zijn in velerlei soorten, afmetingen en kwaliteiten verkrijgbaar. Er bestaan schroevendraaiers met een platte punt, alsook met een ster- of kruiskop. Goede schroevendraaiers zijn vervaardigd van speciale staalsoorten. Bij een juiste toepassing zijn ze praktisch onbreekbaar. Het heft van een schroevendraaier wordt meestal gemaakt van een slagvaste, onbreekbare kunststof. Soms vervaardigt men het heft nog van een taaie houtsoort. De grootte van schroevendraaier en schroef dienen bij elkaar te 'passen'.</p>
           </div> 
         <div class="img-boeken">
-          <img src="../../IMG/schroevendraaiers.jpg" alt="boeken" class="img-item">
+          <img src="../../IMG/schroevendraaiers.jpg" alt="schroevendraaier" class="img-item">
         </div> 
         </div>
       </div>

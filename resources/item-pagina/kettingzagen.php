@@ -34,7 +34,7 @@
           <p>Elektrische kettingzagen zijn vaak goedkoper in aanschaf. Nadeel is het snoer bij sommige elektrische kettingzagen waardoor de actieradius beperkt is, maar draadloze elektrische kettingzagen bestaan ook. Deze werken op een accu.</p>
         </div> 
         <div class="img-boeken">
-          <img src="../../IMG/kettingzaag.png" alt="boeken" class="img-item">
+          <img src="../../IMG/kettingzaag.png" alt="kettingzaag" class="img-item">
         </div> 
       </div>
     </div>
