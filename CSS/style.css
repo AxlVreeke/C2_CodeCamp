@@ -143,6 +143,18 @@ body{
   gap: 5px;
 }
 
+/* songs */
+.lyrics{
+  text-align: center;
+}
+
+.blue{
+  background-color: lightblue;
+  border-radius: 50px;
+}
+
+
+
 /* scrollbar */
 
 ::-webkit-scrollbar-track

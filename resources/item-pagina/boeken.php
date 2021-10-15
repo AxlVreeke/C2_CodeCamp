@@ -7,7 +7,7 @@
     <script src="JS/script.js"></script>
 </head>
 <header>
-  <nav>
+  <nav class="blue">
     <div class="header-container">
     <div class="img-nav">
       <a href="index.php">
