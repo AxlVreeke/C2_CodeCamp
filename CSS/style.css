@@ -139,6 +139,32 @@ body{
 .items{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+/* songs */
+.lyrics{
+  text-align: center;
+}
+
+.blue{
+  background-color: #4682b4;
+  border-radius: 50px;
+}
+
+.red{
+  background-color: #cc0000;
+  border-radius: 50px;
+}
+
+.orange{
+  background-color: #b97d4b;
+  border-radius: 50px;
+}
+
+.green{
+  background-color: #317f43;
+  border-radius: 50px;
 }
 
 /* scrollbar */
