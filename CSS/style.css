@@ -146,11 +146,13 @@ nav{
     padding: 0;
     margin: 0;
     display: none;
+    color: #000000;
 }
 
 .third-level-menu > li
 {
     height: 30px;
+    color: #000000;
 }
 
 .second-level-menu
@@ -163,12 +165,14 @@ nav{
     padding: 0;
     margin: 0;
     display: none;
+    color: #000000;
 }
 
 .second-level-menu > li
 {
     position: relative;
     height: 30px;
+    color: #000000;
 }
 
 .top-level-menu
@@ -176,6 +180,7 @@ nav{
     list-style: none;
     padding: 0;
     margin: 0;
+    color: #000000;
 }
 
 .top-level-menu > li
@@ -184,13 +189,18 @@ nav{
     float: left;
     height: 30px;
     width: 150px;
+    color: #000000;
 }
 .top-level-menu li:hover > ul
 {
     /* On hover, display the next level's menu */
     display: inline;
+    color: #000000;
 }
 
+.font-color{
+  color: #000000;
+}
 
 /* Menu Link Styles */
 
