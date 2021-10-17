@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeCamp</title>
   <link rel="stylesheet" type="text/css" href="<?= $base_url ?>/CSS/style.css">
-  
 </head>
 
 <body>
@@ -22,11 +21,11 @@
         <div class="buttons-nav">
           <div class="dropdown">
             <a href="<?= $base_url ?>/index.php">
-              <button class="button_home" type="button">Home</button>
+              <button class="button_home" type="button"><b>Home</b></button>
             </a>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Songteksten
+            <button class="dropbtn"><b>Songteksten</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -40,7 +39,7 @@
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Voorwerpen
+            <button class="dropbtn"><b>Voorwerpen</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -51,7 +50,7 @@
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Informatie Pagina
+            <button class="dropbtn"><b>Informatie Pagina</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">

@@ -3,12 +3,6 @@
     <footer>
         <div class="footer_container">
         <p style="text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> CodeCamp All Rights Reserved</p>
-            <div class="contactinformatie">
-                <p>Bedrijfnaam: 4S</p>
-                <p>Adres: Julianastraat 69</p>
-                <p>Postcode: 5964BT SCHOONHOVEN</p>
-                <p>Telefoon: 2155569420</p>
-            </div>
             <div class="footer-img">
                 <a href="https://www.facebook.com" target="_blank">
                 <img src="<?= $base_url; ?>/IMG/facebook.png" alt="Facebook Logo">
