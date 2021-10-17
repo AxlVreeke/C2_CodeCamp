@@ -23,7 +23,7 @@
   </nav>
 </header>
 <body>
-<div class="container orange">
+<div class="container red">
       <div class="text">
         <h1>Iron Maiden ~Transylvania Lyrics</h1>
         <p class="lyrics">
@@ -31,7 +31,6 @@
       </p>
     </div>
   </div>
-
 </body>
 <footer>
     <div class="footer_container">

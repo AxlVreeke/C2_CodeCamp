@@ -149,17 +149,22 @@ body{
 }
 
 .blue{
-  background-color: lightblue;
+  background-color: #4682b4;
   border-radius: 50px;
 }
 
 .red{
-  background-color: lightcoral;
+  background-color: #cc0000;
   border-radius: 50px;
 }
 
 .orange{
-  background-color: lightsalmon;
+  background-color: #b97d4b;
+  border-radius: 50px;
+}
+
+.green{
+  background-color: #317f43;
   border-radius: 50px;
 }
 
