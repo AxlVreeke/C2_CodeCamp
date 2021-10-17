@@ -188,6 +188,11 @@ body{
   border-radius: 50px;
 }
 
+.yellow{
+  background-color: yellow;
+  border-radius: 50px;
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar-track

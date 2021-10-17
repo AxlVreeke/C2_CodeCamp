@@ -34,7 +34,8 @@
               <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness</a>
               <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby</a>
               <a href="<?= $base_url ?>/resources/song-pagina/transylvia.php">Transylvia</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/uprising.php">Uprising</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising Muse</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising My Baby</a>
               <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">we are the champions</a>
             </div>
           </div>
