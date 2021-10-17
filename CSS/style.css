@@ -38,7 +38,6 @@ nav{
   border-bottom: black solid 1px;
   box-shadow: 3px;
 }
-/* header styling */
 
 .header-container{
   display: flex;
@@ -59,8 +58,8 @@ nav{
   color: black;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; 
+  margin: 0; 
   margin-top: 10px;
 }
 .button_home{
@@ -70,8 +69,8 @@ nav{
   color: black;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; 
+  margin: 0; 
   margin-top: 10px;
 }
 .button_home:hover{
@@ -175,7 +174,7 @@ footer{
 position:absolute;
 bottom:0;
 width:100%;
-background-color: white;
+background-color: grey;
 color: black;
 padding: 10px 0px 10px 0px;
 border-top: 1px black solid;
