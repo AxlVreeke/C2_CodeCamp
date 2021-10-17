@@ -6,9 +6,24 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.index-cool{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 30px;
+  color: black;
+  width: 60%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .logo_codecamp{
 height: 57px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .live-time{
@@ -19,7 +34,8 @@ font-size: 50px;
 font-weight: bold;
 color: black;
 font-family: 'Roboto', sans-serif;
-margin-top: 20px;
+margin-top: 75px;
+margin-bottom: 75px;
 }
 
 .container{
@@ -37,6 +53,15 @@ margin-top: 20px;
 nav{
   border-bottom: black solid 1px;
   box-shadow: 3px;
+}
+
+.logo_codecamp{
+  width: 100px;
+}
+
+.buttons-nav{
+  display: flex;
+  align-items: center;
 }
 
 .header-container{

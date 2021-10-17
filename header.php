@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeCamp</title>
   <link rel="stylesheet" type="text/css" href="<?= $base_url ?>/CSS/style.css">
-
 </head>
 
 <body>
@@ -17,16 +16,16 @@
     <nav>
       <div class="header-container">
         <div class="img-nav">
-          <img src="<?= $base_url ?>/IMG/codecamplogo.png" class="logo-codecamp" alt="logo">
+          <img src="<?= $base_url ?>/IMG/logo.png" class="logo-codecamp" alt="logo">
         </div>
         <div class="buttons-nav">
           <div class="dropdown">
             <a href="<?= $base_url ?>/index.php">
-              <button class="button_home" type="button">Home</button>
+              <button class="button_home" type="button"><b>Home</b></button>
             </a>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Songteksten
+            <button class="dropbtn"><b>Songteksten</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -41,7 +40,7 @@
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Voorwerpen
+            <button class="dropbtn"><b>Voorwerpen</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -53,29 +52,29 @@
           </div>
           <ul class="top-level-menu">
             <li>
-              <a href="#">Dranken</a>
+              <a class="font-color" href="#">Dranken</a>
               <ul class="second-level-menu">
                 <li>
-                  <a href="#">Koude Dranken</a>
+                  <a href="#" class="font-color">Koude Dranken</a>
                   <ul class="third-level-menu">
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php">Cola</a></li>
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/up.php">Up</a></li>
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/sinas.php">Sinas</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php">Cola</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/up.php">Up</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/sinas.php">Sinas</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Warme Dranken</a>
+                  <a class="font-color" href="#">Warme Dranken</a>
                   <ul class="third-level-menu">
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/koffie.php">Koffie</a></li>
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/latte.php">Latte</a></li>
-                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/thee.php">Thee</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/koffie.php">Koffie</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/latte.php">Latte</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/thee.php">Thee</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
           </ul>
           <div class="dropdown">
-            <button class="dropbtn">Informatie Pagina
+            <button class="dropbtn"><b>Informatie Pagina</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
