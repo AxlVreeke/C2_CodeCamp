@@ -16,7 +16,7 @@
     <nav>
       <div class="header-container">
         <div class="img-nav">
-          <img src="<?= $base_url ?>/IMG/codecamplogo.png" class="logo-codecamp" alt="logo">
+          <img src="<?= $base_url ?>/IMG/logo.png" class="logo-codecamp" alt="logo">
         </div>
         <div class="buttons-nav">
           <div class="dropdown">

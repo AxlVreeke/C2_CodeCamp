@@ -55,6 +55,10 @@ nav{
   box-shadow: 3px;
 }
 
+.logo_codecamp{
+  width: 100px;
+}
+
 .buttons-nav{
   display: flex;
   align-items: center;
