@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeCamp</title>
   <link rel="stylesheet" type="text/css" href="<?= $base_url ?>/CSS/style.css">
-  
+
 </head>
 
 <body>
@@ -51,6 +51,29 @@
               <a href="<?= $base_url ?>/resources/item-pagina/kettingzagen.php">Kettingzagen</a>
             </div>
           </div>
+          <ul class="top-level-menu">
+            <li>
+              <a href="#">Dranken</a>
+              <ul class="second-level-menu">
+                <li>
+                  <a href="#">Koude Dranken</a>
+                  <ul class="third-level-menu">
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php">Cola</a></li>
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/up.php">Up</a></li>
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/sinas.php">Sinas</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Warme Dranken</a>
+                  <ul class="third-level-menu">
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/koffie.php">Koffie</a></li>
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/latte.php">Latte</a></li>
+                    <li><a href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/thee.php">Thee</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
           <div class="dropdown">
             <button class="dropbtn">Informatie Pagina
               <i class="fa fa-caret-down"></i>
@@ -61,6 +84,11 @@
               <a href="<?= $base_url ?>/resources/info-pagina/luke-skywalker.php">Luke Skywalker</a>
               <a href="<?= $base_url ?>/resources/info-pagina/timoty-dalton.php">Timoty Dalton</a>
             </div>
+          </div>
+          <div class="dropdown">
+            <a href="<?= $base_url ?>/resources/link-pagina.php">
+              <button class="button_home" type="button">Home</button>
+            </a>
           </div>
         </div>
     </nav>
