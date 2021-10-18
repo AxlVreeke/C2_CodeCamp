@@ -20,8 +20,9 @@
   padding-right: 20px;
 }
 
-.logo_codecamp{
+.logo-codecamp{
 height: 57px;
+margin: 10px
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
@@ -199,14 +200,20 @@ nav{
 }
 
 .font-color{
-  color: #000000;
+  font-size: 16px;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  font-weight: bold;
 }
 
 /* Menu Link Styles */
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
-    font: bold 14px Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 0 0 0 10px;
 
