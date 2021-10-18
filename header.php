@@ -85,10 +85,18 @@
             </div>
           </div>
           <div class="dropdown">
-            <a href="<?= $base_url ?>/resources/link-pagina.php">
-              <button class="button_home" type="button"><b>Overige Links</b></button>
-            </a>
+            <button class="dropbtn"><b>Overige Links</b>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="<?= $base_url ?>/resources/link-pagina.php">Alle Links</a>
+              <a href="https://www.imdb.com/">IMDB</a>
+              <a href="https://www.videoland.com/nl/">Videoland</a>
+              <a href="https://www.movies.nl/">Movies.nl</a>
+            </div>
           </div>
         </div>
+      </div>
     </nav>
   </header>
+</body>
