@@ -6,6 +6,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+*:first-letter {
+  text-transform: uppercase;
+}
+
+
 .index-cool{
   display: flex;
   justify-content: space-between;
