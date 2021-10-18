@@ -174,7 +174,9 @@ nav{
     height: 30px;
     color: #000000;
 }
-
+.font-color-content {
+  display: block;
+}
 .top-level-menu
 {
     list-style: none;
@@ -200,6 +202,11 @@ nav{
 
 .font-color{
   color: #000000;
+  margin-top: 5px;
+  background-color: white;
+}
+.font-color:hover{
+  background-color: lightgray;
 }
 
 /* Menu Link Styles */
