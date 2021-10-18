@@ -52,7 +52,7 @@
           </div>
           <ul class="top-level-menu">
             <li>
-              <a class="font-color" href="#">Dranken</a>
+              <a class="font-color" href="#"><b>Dranken</b></a>
               <ul class="second-level-menu">
                 <li>
                   <a href="#" class="font-color">Koude Dranken</a>
@@ -74,7 +74,7 @@
             </li>
           </ul>
           <div class="dropdown">
-            <button class="dropbtn"><b>Informatie Pagina</b>
+            <button class="dropbtn"><b>Acteurs en Karakters</b>
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -86,7 +86,7 @@
           </div>
           <div class="dropdown">
             <a href="<?= $base_url ?>/resources/link-pagina.php">
-              <button class="button_home" type="button">Overige Links</button>
+              <button class="button_home" type="button"><b>Overige Links</b></button>
             </a>
           </div>
         </div>

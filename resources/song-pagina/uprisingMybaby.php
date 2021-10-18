@@ -2,7 +2,7 @@
 
 <div class="container orange">
   <div class="text">
-    <h1>Uprissing ~MY BABY</h1>
+    <h1>Uprising ~My baby</h1>
     <p class="lyrics">
       Allow me in your tub
       Just allow me in your club
