@@ -36,7 +36,7 @@
               <a href="<?= $base_url ?>/resources/song-pagina/transylvia.php">Transylvia</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising Muse</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising My Baby</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">we are the champions</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">We are the champions</a>
             </div>
           </div>
           <div class="dropdown">
@@ -84,10 +84,40 @@
               <a href="<?= $base_url ?>/resources/info-pagina/timoty-dalton.php">Timoty Dalton</a>
             </div>
           </div>
+
+          <ul class="top-level-menu">
+            <li>
+              <a class="font-color" href="#"><b>Personen</b></a>
+              <ul class="second-level-menu">
+                <li>
+                  <a href="#" class="font-color">Acteurs</a>
+                  <ul class="third-level-menu">
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/george-clooney.php">George Clooney</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/rooger-moore.php">Rooger Moore</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/timothy-dalton.php">Timothy Dalton</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="font-color" href="#">Karakters</a>
+                  <ul class="third-level-menu">
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/karakters/darth-vader.php">Darth Vader</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/karakters/james-bond.php">James Bond</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/karakters/luke-skywalker.php">Luke Skywalker</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
           <div class="dropdown">
-            <a href="<?= $base_url ?>/resources/link-pagina.php">
-              <button class="button_home" type="button"><b>Overige Links</b></button>
-            </a>
+            <button class="dropbtn"><b>Overige Links</b>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://www.imdb.com">imbd</a></li>
+              <a href="https://www.videoland.nl">videoland</a></li>
+              <a href="https://www.movies.nl">movies</a></li>
+            </div>
           </div>
         </div>
     </nav>
