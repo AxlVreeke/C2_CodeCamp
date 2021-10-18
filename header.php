@@ -86,7 +86,7 @@
           </div>
           <div class="dropdown">
             <a href="<?= $base_url ?>/resources/link-pagina.php">
-              <button class="button_home" type="button">Home</button>
+              <button class="button_home" type="button">Overige Links</button>
             </a>
           </div>
         </div>
