@@ -1,9 +1,9 @@
 <?php require_once '../../header.php' ?>
 
-<div class="container orange">
+<div class="container green">
   <div class="text">
     <h1>Uprising ~Muse</h1>
-    <p class="lyrics">
+    <p class="lyrics-red">
       Paranoia is in bloom
       The PR transmissions will resume
       They'll try to push drugs that keep us all dumbed down
@@ -42,7 +42,4 @@
     </p>
   </div>
 </div>
-<form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>
 <?php require_once '../../footer.php' ?>

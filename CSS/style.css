@@ -10,6 +10,10 @@
   text-transform: uppercase;
 }
 
+
+.round {
+  border-radius: 50%;
+}
 .index-cool{
   display: flex;
   justify-content: space-between;
@@ -244,40 +248,13 @@ nav{
 .top-level-menu a:hover { color: #000000; }
 
 /* items */
-
-.item-title{
-  grid-area: header;
-}
-.item-text{
-  grid-area: main;
-  font-weight: bold;
-  padding-right: 50px;
-}
-
-img.boeken{
-  grid-area: sidebar;
-}
-
-.item-text-2{
-  grid-area: footer;
-  margin-top: 50px;
-}
-
-.item{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer"
-  ;
-  margin-top: 100px;
-  padding: 50px;
-}
-
 .text{
-  margin: auto;
+  margin-top: 25px;
+  padding: 45px;
+  border-radius: 50px;
+  height: 100%;
+  border: black 1px solid;
+  overflow: auto;
 }
 
 h1{
@@ -291,15 +268,19 @@ body{
 
 .img-item{
   height: 100%;
-  width: 150%;
+  width: 100%;
   border: black solid 1px;
-  border-radius: 10px;
 }
 
 .items{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
+}
+
+.lyrics-red{
+  color: #721d1d;
+  border-radius: 50px;
 }
 
 /* songs */

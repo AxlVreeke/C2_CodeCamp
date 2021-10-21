@@ -32,7 +32,7 @@
             </button>
             <div class="dropdown-content">
               <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">We are the champions (Queen)</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/bohemian-rhapsody.php">Bohemian rhapsody (Queen)</a>
+              <!-- <a href="<?= $base_url ?>/resources/song-pagina/bohemian-rhapsody.php">Bohemian rhapsody (Queen)</a> -->
               <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen (Queen)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby (Muse)</a>
