@@ -244,13 +244,40 @@ nav{
 .top-level-menu a:hover { color: #000000; }
 
 /* items */
+
+.item-title{
+  grid-area: header;
+}
+.item-text{
+  grid-area: main;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+img.boeken{
+  grid-area: sidebar;
+}
+
+.item-text-2{
+  grid-area: footer;
+  margin-top: 50px;
+}
+
+.item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer"
+  ;
+  margin-top: 100px;
+  padding: 50px;
+}
+
 .text{
-  margin-top: 25px;
-  padding: 45px;
-  border-radius: 50px;
-  height: 100%;
-  border: black 1px solid;
-  overflow: auto;
+  margin: auto;
 }
 
 h1{
@@ -264,8 +291,9 @@ body{
 
 .img-item{
   height: 100%;
-  width: 100%;
+  width: 150%;
   border: black solid 1px;
+  border-radius: 10px;
 }
 
 .items{
@@ -275,27 +303,8 @@ body{
 }
 
 /* songs */
-.button {
-  background: transparent;
-  box-shadow: 0px 0px 0px transparent;
-  border: 0px solid transparent;
-  text-shadow: 0px 0px 0px transparent;
-}
-
-.button:hover {
-  background: transparent;
-  box-shadow: 0px 0px 0px transparent;
-  border: 0px solid transparent;
-  text-shadow: 0px 0px 0px transparent;
-}
-
-.button:active {
-  outline: none;
-  border: none;
-}
-
-.button:focus {
-  outline: 0;
+.lyrics{
+  text-align: center;
 }
 
 .blue{
