@@ -9,5 +9,9 @@
     </p>
   </div>
 </div>
+<div class="doorklikken">
+  <p>Klik hier om naar de "Rooger Moore" pagina te gaan:</p>
+  <a href="../info-pagina/acteurs/rooger-moore.php">Klik hier!</a>
+</div>
 
 <?php require_once '../../../footer.php' ?>
