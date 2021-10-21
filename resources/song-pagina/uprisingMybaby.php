@@ -1,9 +1,9 @@
 <?php require_once '../../header.php' ?>
 
-<div class="container green">
+<div class="container orange">
   <div class="text">
     <h1>Uprising ~My baby</h1>
-    <p class="lyrics-red">
+    <p class="lyrics">
       Allow me in your tub
       Just allow me in your club
       Allow me to drink from your cup
@@ -41,4 +41,7 @@
     </p>
   </div>
 </div>
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
 <?php require_once '../../footer.php' ?>
