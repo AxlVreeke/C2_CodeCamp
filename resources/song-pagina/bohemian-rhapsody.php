@@ -64,5 +64,6 @@
     </p>
   </div>
 </div>
+<input type="button" value="Go back!" onclick="history.back()">
 
 <?php require_once '../../footer.php' ?>
