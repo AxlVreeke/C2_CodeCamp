@@ -9,7 +9,27 @@
 *:first-letter {
   text-transform: uppercase;
 }
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
 
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: lightgray;
+  color: black;
+  margin-left: 20px;
+}
+
+
+.round {
+  border-radius: 50%;
+}
 .index-cool{
   display: flex;
   justify-content: space-between;

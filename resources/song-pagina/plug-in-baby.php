@@ -31,8 +31,7 @@
       Mine is gone
     </p>
   </div>
-</div><form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>
+</div>
+<a onclick="history.back()" class="previous round">&#8249;</a>
 
 <?php require_once '../../footer.php' ?>

@@ -1,7 +1,5 @@
 <?php require_once '../header.php' ?>
     
-<form>
- <input type="button" class="button" value="<-" onclick="history.back()">
-</form>
+<a onclick="history.back()" class="previous round">&#8249;</a>
 
 <?php require_once '../footer.php' ?>
