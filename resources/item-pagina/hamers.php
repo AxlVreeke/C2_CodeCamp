@@ -24,6 +24,5 @@
       <img src="<?= $base_url ?>/IMG/hamers.jpg" alt="boeken" class="img-item">
     </div>
   </div>
-  <a onclick="history.back()" class="previous round">&#8249;</a>
 </div>
 <?php require_once "../../footer.php"; ?>
