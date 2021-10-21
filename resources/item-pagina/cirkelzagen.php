@@ -14,12 +14,13 @@
     <div class="item-text-2">
       <p>
       Er bestaan vele verhalen over het uitvinden van de cirkelzaag.[1] Wat vast staat is dat de cirkelzaag in 1777 voor het eerst gepatenteerd werd door de Engelsman Samuel Miller. Door de omschrijving uit het patent vermoedt men dat de cirkelzaag al eerder bestond. Deze zaag werd door een windmolen aangedreven en er werden scheepskatrollen mee vervaardigd. In 1799 volgde een patent door de Fransman L.C.A. Albert en in 1805 werd door Marc Isambard Brunel een cirkelzaag ontworpen die op een scheepswerf te Portsmouth werd gebruikt, eveneens voor het vervaardigen van katrollen. Omstreeks 1850 was de cirkelzaag al in zwang in houtzagerijen en timmerfabrieken. In 1855 werd een cirkelzaagmachine getoond op de Wereldtentoonstelling te Parijs.
-      Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap. Het spouwmes zorgt ervoor dat de zaagsnede open gehouden wordt en voorkomt daardoor terugslag van het werkstuk. Het is gemonteerd achter het zaagblad, dus daar waar de tanden van de zaag omhoog gaan. De voorzijde, waar de tanden van de zaag naar beneden gaan, is waar het te zagen hout aangevoerd wordt.
+      Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen.
       </p>
     </div>
     <div class="img-boeken">
       <img src="<?= $base_url ?>/IMG/cirkelzaag.jpg" alt="boeken" class="img-item">
     </div>
   </div>
+  <a onclick="history.back()" class="previous round">&#8249;</a>
 </div>
 <?php require_once "../../footer.php"; ?>
