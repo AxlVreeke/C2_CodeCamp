@@ -153,36 +153,38 @@ nav{
     margin: 0;
     display: none;
     color: #000000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .third-level-menu > li
 {
-    height: 30px;
+    height: 50px;
     color: #000000;
 }
 
-.second-level-menu
-{
+.second-level-menu{
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 0;
     width: 150px;
     list-style: none;
     padding: 0;
     margin: 0;
     display: none;
-    color: #000000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .second-level-menu > li
 {
     position: relative;
-    height: 30px;
+    height: 50px;
     color: #000000;
 }
+
 .font-color-content {
   display: block;
 }
+
 .top-level-menu
 {
     list-style: none;
@@ -196,9 +198,10 @@ nav{
     position: relative;
     float: left;
     height: 30px;
-    width: 150px;
+    width: 100px;
     color: #000000;
 }
+
 .top-level-menu li:hover > ul
 {
     /* On hover, display the next level's menu */
@@ -208,19 +211,32 @@ nav{
 
 .font-color{
   color: #000000;
-  margin-top: 5px;
+  padding-top: 5px;
   background-color: white;
+  padding: 15px;
 }
+
 .font-color:hover{
   background-color: lightgray;
 }
+
+.nav-title{
+  padding: 5px;
+  margin: auto;
+}
+
+.nav-title-style{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Menu Link Styles */
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     text-decoration: none;
-    padding: 0 0 0 10px;
 
     /* Make the link cover the entire list item-container */
     display: block;
