@@ -65,7 +65,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a class="font-color" href="#">Warme Dranken</a>
+                  <a class="font-color" href="#">Frisdrank</a>
                   <ul class="third-level-menu">
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/koffie.php">Koffie</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/latte.php">Latte</a></li>
