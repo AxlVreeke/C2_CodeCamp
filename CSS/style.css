@@ -302,6 +302,11 @@ body{
   gap: 5px;
 }
 
+.lyrics-red{
+  color: #721d1d;
+  border-radius: 50px;
+}
+
 /* songs */
 .lyrics{
   text-align: center;
