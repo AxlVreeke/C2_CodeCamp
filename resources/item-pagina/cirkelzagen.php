@@ -8,6 +8,5 @@
       <p>Een cirkelzaag die bedoeld is om latten, buizen, houten balken en dergelijke te zagen wordt ook wel een afkorter of afkortzaag genoemd.</p>
     </div>
   </div>
-  <a onclick="history.back()" class="previous round">&#8249;</a>
 </body>
 <?php require_once '../../footer.php'; ?>

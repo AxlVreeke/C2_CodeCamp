@@ -11,5 +11,4 @@
     </p>
   </div>
 </div>
-<a onclick="history.back()" class="previous round">&#8249;</a>
 <?php require_once '../../footer.php' ?>
