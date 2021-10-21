@@ -16,7 +16,9 @@
     <nav>
       <div class="header-container">
         <div class="img-nav">
+          <a href="<?= $base_url ?>/index.php">
           <img src="<?= $base_url ?>/IMG/logo.png" class="logo-codecamp" alt="logo">
+          </a>
         </div>
         <div class="buttons-nav">
           <div class="dropdown">
@@ -29,14 +31,14 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="<?= $base_url ?>/resources/song-pagina/bohemian-rhapsody.php">Bohemian rhapsody</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/transylvia.php">Transylvia</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising Muse</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising My Baby</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">We are the champions</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/we-are-the-champions.php">We are the champions (Queen)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/bohemian-rhapsody.php">Bohemian rhapsody (Queen)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen (Queen)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising (Muse)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby (Muse)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (muse)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising (My Baby)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a>
             </div>
           </div>
           <div class="dropdown">
@@ -73,18 +75,6 @@
               </ul>
             </li>
           </ul>
-          <div class="dropdown">
-            <button class="dropbtn"><b>Acteurs en Karakters</b>
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="<?= $base_url ?>/resources/info-pagina/darth-vader.php">Darth vader</a>
-              <a href="<?= $base_url ?>/resources/info-pagina/james-bond.php">James Bond</a>
-              <a href="<?= $base_url ?>/resources/info-pagina/luke-skywalker.php">Luke Skywalker</a>
-              <a href="<?= $base_url ?>/resources/info-pagina/timoty-dalton.php">Timoty Dalton</a>
-            </div>
-          </div>
-
           <ul class="top-level-menu">
             <li>
               <a class="font-color nav-title" href="#"><b class="nav-title-style">Personen</b></a>
