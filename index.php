@@ -8,6 +8,7 @@
       <div id="time"></div>
     </div>
   </div>
+  
   <div class="index-cool">
     <div class="index-logo">
       <img src="<?= $base_url ?>/IMG/camp.png" alt="Index logo">
