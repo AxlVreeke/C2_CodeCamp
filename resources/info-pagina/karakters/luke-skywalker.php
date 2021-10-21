@@ -1,4 +1,4 @@
-<?php require_once '../../header.php' ?>
+<?php require_once '../../../header.php' ?>
 
 <div class="container green">
   <div class="text">
@@ -13,4 +13,4 @@
 <form>
  <input type="button" value="Go back!" onclick="history.back()">
 </form>
-<?php require_once '../../footer.php' ?>
+<?php require_once '../../../footer.php' ?>

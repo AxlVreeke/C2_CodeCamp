@@ -1,4 +1,4 @@
-<?php require_once '../../header.php' ?>
+<?php require_once '../../../header.php' ?>
 
 <div class="container yellow">
   <div class="text">
@@ -12,4 +12,4 @@
   </div>
 </div>
 
-<?php require_once '../../footer.php' ?>
+<?php require_once '../../../footer.php' ?>
