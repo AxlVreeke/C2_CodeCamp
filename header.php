@@ -52,7 +52,7 @@
           </div>
           <ul class="top-level-menu">
             <li>
-              <a class="font-color" href="#"><b>Dranken</b></a>
+              <a class="font-color nav-title"><b class="nav-title-style">Dranken</b></a>
               <ul class="second-level-menu">
                 <li>
                   <a href="#" class="font-color">Koude Dranken</a>
@@ -87,7 +87,7 @@
 
           <ul class="top-level-menu">
             <li>
-              <a class="font-color" href="#"><b>Personen</b></a>
+              <a class="font-color nav-title" href="#"><b class="nav-title-style">Personen</b></a>
               <ul class="second-level-menu">
                 <li>
                   <a href="#" class="font-color">Acteurs</a>
