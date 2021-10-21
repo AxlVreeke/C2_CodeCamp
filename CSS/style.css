@@ -10,7 +10,6 @@
   text-transform: uppercase;
 }
 
-
 .index-cool{
   display: flex;
   justify-content: space-between;
@@ -276,8 +275,27 @@ body{
 }
 
 /* songs */
-.lyrics{
-  text-align: center;
+.button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.button:hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.button:active {
+  outline: none;
+  border: none;
+}
+
+.button:focus {
+  outline: 0;
 }
 
 .blue{
@@ -366,7 +384,7 @@ position:absolute;
 bottom:0;
 width:100%;
 background-color: grey;
-color: black;
+color: white;
 padding: 10px 0px 10px 0px;
 border-top: 1px black solid;
 }

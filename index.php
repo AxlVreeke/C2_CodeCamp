@@ -8,15 +8,16 @@
       <div id="time"></div>
     </div>
   </div>
+  
   <div class="index-cool">
     <div class="index-logo">
       <img src="<?= $base_url ?>/IMG/camp.png" alt="Index logo">
     </div>
     <div class="contactinformatie">
-      <p><b>Bedrijfnaam:</b> 4S</p>
-      <p><b>Adres:</b> Julianastraat 69</p>
-      <p><b>Postcode:</b> 5964BT SCHOONHOVEN</p>
-      <p><b>Telefoon:</b> 2155569420</p>
+      <p><b>Bedrijfnaam:</b> CodeCamp</p>
+      <p><b>Adres:</b> Koestraat 1</p>
+      <p><b>Postcode:</b> 5964BT Den bosch</p>
+      <p><b>Telefoon:</b> ‍1300263322</p>
     </div>
   </div>
 </body>

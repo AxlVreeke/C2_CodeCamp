@@ -64,5 +64,13 @@
     </p>
   </div>
 </div>
+<form>
+<button class="button_goback" onclick="goBack()"><---</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 
 <?php require_once '../../footer.php' ?>
