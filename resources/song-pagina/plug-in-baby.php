@@ -1,7 +1,7 @@
 <?php require_once '../../header.php' ?>
 
 <div class="container orange">
-  <div class="text">
+  <div class="text scrollbar">
     <h1>Plug in baby ~Muse</h1>
     <p class="lyrics">
       I've exposed your lies, baby

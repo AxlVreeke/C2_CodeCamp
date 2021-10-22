@@ -1,7 +1,7 @@
 <?php require_once '../../header.php' ?>
 
 <div class="container red">
-  <div class="text">
+  <div class="text scrollbar">
     <h1>Madness ~Muse</h1>
     <p class="lyrics">
       She keeps her Moet et Chandon

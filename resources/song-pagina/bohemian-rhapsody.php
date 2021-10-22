@@ -1,7 +1,7 @@
 <?php require_once '../../header.php' ?>
 
 <div class="container blue">
-  <div class="text">
+  <div class="text scrollbar">
     <h1>Bohemian Rhapsody ~Queen</h1>
     <p class="lyrics">
       Is this the real life?

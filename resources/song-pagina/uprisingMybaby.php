@@ -1,7 +1,7 @@
 <?php require_once '../../header.php' ?>
 
 <div class="container green">
-  <div class="text">
+  <div class="text scrollbar">
     <h1>Uprising ~My baby</h1>
     <p class="lyrics-red">
       Allow me in your tub
