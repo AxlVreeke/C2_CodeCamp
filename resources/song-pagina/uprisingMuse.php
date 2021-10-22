@@ -2,8 +2,9 @@
 
 <div class="container green">
   <div class="text">
+    <div class="dark-red">
     <h1>Uprising ~Muse</h1>
-    <pre class="lyrics-red lyrics">
+    <pre class="lyrics">
       Paranoia is in bloom
       The PR transmissions will resume
       They'll try to push drugs that keep us all dumbed down
@@ -46,6 +47,7 @@
       We will be victorious
       (So come on)
     </pre>
+    </div>
   </div>
 </div>
 

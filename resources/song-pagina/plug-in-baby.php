@@ -2,6 +2,7 @@
 
 <div class="container orange">
   <div class="text">
+  <div class="white">
     <h1>Plug in baby ~Muse</h1>
     <pre class="lyrics">
       I've exposed your lies, baby
@@ -32,6 +33,7 @@
       And I've seen your loving
       Mine is gone
     </pre>
+  </div>
   </div>
 </div>
 

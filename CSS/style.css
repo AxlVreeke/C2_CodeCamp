@@ -299,10 +299,6 @@ h1{
   margin-bottom: 10px;
   margin-left: 5px;
 }
-/* 
-body{
-  overflow: hidden;
-} */
 
 .img-item{
   height: 100%;
@@ -318,8 +314,9 @@ body{
 }
 
 .lyrics-red{
-  color: #721d1d;
+  color: #ad2323;
   border-radius: 50px;
+  padding-top: 20px;
 }
 
 .doorklikken{
@@ -341,6 +338,14 @@ body{
   border-radius: 50px;
 }
 
+.white{
+  color: white;
+}
+
+.dark-red{
+  color: #ad2323;
+}
+
 .red{
   background-color: #cc0000;
   border-radius: 50px;
@@ -352,7 +357,7 @@ body{
 }
 
 .green{
-  background-color: #317f43;
+  background-color: #28d350;
   border-radius: 50px;
 }
 

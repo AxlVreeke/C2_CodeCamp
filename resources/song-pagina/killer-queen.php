@@ -2,6 +2,7 @@
 
 <div class="container blue">
   <div class="text">
+  <div class="white">
     <h1>Killer Queen ~Queen</h1>
     <pre class="lyrics">
       She keeps her Moet et Chandon 
@@ -64,6 +65,7 @@
       Wanna try? 
       You wanna try 
     </pre>
+  </div>
   </div>
 </div>
 

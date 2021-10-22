@@ -2,11 +2,14 @@
 
 <div class="container red">
   <div class="text">
+  <div class="white">
     <h1>Iron Maiden ~Transylvania Lyrics</h1>
-    <p class="lyrics">
+    <pre class="lyrics">
       [instrumental]
-    </p>
+    </pre>
+  </div>
   </div>
 </div>
+
 
 <?php require_once '../../footer.php' ?>

@@ -2,6 +2,7 @@
 
 <div class="container red">
   <div class="text">
+  <div class="white">
     <h1>Madness ~Muse</h1>
     <pre class="lyrics">
       I, I can't get these memories out of my mind 
@@ -41,6 +42,7 @@
       Our love is 
       Madness 
     </pre>
+  </div>
   </div>
 </div>
 

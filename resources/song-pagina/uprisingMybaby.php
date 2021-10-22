@@ -2,8 +2,9 @@
 
 <div class="container green">
   <div class="text">
+    <div class="dark-red">
     <h1>Uprising ~My baby</h1>
-    <pre class="lyrics-red lyrics">
+    <pre class="lyrics">
       Allow me in your tub
       Just allow me in your club
       Allow me to drink from your cup
@@ -48,6 +49,7 @@
       This girl keeps on rising
       Keep on rising up
     </pre>
+    </div>
   </div>
 </div>
 
