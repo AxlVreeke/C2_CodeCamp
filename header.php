@@ -57,7 +57,7 @@
               <a class="font-color nav-title"><b class="nav-title-style">Dranken</b></a>
               <ul class="second-level-menu">
                 <li>
-                  <a href="#" class="font-color">Koude Dranken</a>
+                  <a href="#" class="font-color">Frisdrank</a>
                   <ul class="third-level-menu">
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php">Cola</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/up.php">Up</a></li>
@@ -65,7 +65,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a class="font-color" href="#">Frisdrank</a>
+                  <a class="font-color" href="#">Warme dranken</a>
                   <ul class="third-level-menu">
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/koffie.php">Koffie</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/warme-dranken/latte.php">Latte</a></li>
