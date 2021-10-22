@@ -1,6 +1,6 @@
 <?php require_once '../../header.php'; ?>
 <div class="container">
-  <div class="item">
+  <div class="item scrollbar">
     <div class="item-title">
       <h1>Boeken</h1>
     </div>
