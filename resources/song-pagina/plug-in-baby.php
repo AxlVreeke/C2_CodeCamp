@@ -1,5 +1,11 @@
 <?php require_once '../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+    <li class="breadcrumb-item"> <a href="#">Plug In Baby</a></li>
+ </ul>
+</body>
 <div class="container orange">
   <div class="text">
     <h1>Plug in baby ~Muse</h1>
