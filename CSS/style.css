@@ -355,6 +355,10 @@ body{
   border-radius: 50px;
 }
 
+.purple{
+  background-color: #CBC3E3;
+  border-radius: 50px;
+}
 /* scrollbar */
 
 ::-webkit-scrollbar-track
