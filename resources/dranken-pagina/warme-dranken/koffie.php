@@ -19,5 +19,9 @@
       <img src="<?= $base_url ?>/IMG/koffie.jpg" alt="koffie" class="img-item">
     </div>
   </div>
+  <div class="doorklikken">
+    <p>Klik hier om naar de "George Clooney" pagina te gaan:</p>
+    <a href="../../info-pagina/acteurs/george-clooney.php">Klik hier!</a>
+  </div>
 </div>
 <?php require_once "../../../footer.php"; ?>
