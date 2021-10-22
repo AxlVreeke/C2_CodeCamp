@@ -2,59 +2,54 @@
 
 <div class="container red">
   <div class="text">
-    <h1>Madness ~Muse</h1>
-    <p class="lyrics">
-      She keeps her Moet et Chandon
-      In her pretty cabinet
-      "Let them eat cake", she says
-      Just like Marie Antoinette
-      A built-in remedy
-      For Khrushchev and Kennedy
-      At anytime an invitation
-      You can't decline
-      Caviar and cigarettes
-      Well versed in etiquette
-      Extraordinarily nice
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Recommended at the price
-      Insatiable an appetite
-      Wanna try?
-      To avoid complications
-      She never kept the same address
-      In conversation
-      She spoke just like a baroness
-      Met a man from China
-      Went down to Geisha Minah
-      Then again incidentally
-      If you're that way inclined
-      Perfume came naturally from Paris (naturally)
-      For cars she couldn't care less
-      Fastidious and precise
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Drop of a hat she's as willing as
-      Playful as a pussy cat
-      Then momentarily out of action
-      Temporarily out of gas
-      To absolutely drive you wild, wild
-      She's all out to get you
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Recommended at the price
-      Insatiable an appetite
-      Wanna try?
-      You wanna try
-    </p>
+    <h1>We are the champions ~Queen</h1>
+    <pre class="lyrics">
+      I've paid my dues 
+      Time after time 
+      I've done my sentence 
+      But committed no crime 
+      And bad mistakes 
+      I've made a few 
+      I've had my share of sand 
+      Kicked in my face 
+      But I've come through 
+       
+      And we mean to go on and on and on and on 
+       
+      We are the champions, my friends 
+      And we'll keep on fighting till the end 
+      We are the champions 
+      We are the champions 
+      No time for losers 
+      'Cause we are the champions of the world 
+       
+      I've taken my bows 
+      And my curtain calls
+      You brought me fame and fortune 
+      And everything that goes with it 
+      I thank you all 
+      But it's been no bed of roses 
+      No pleasure cruise 
+      I consider it a challenge before 
+      The human race 
+      And I ain't gonna lose 
+       
+      And we mean to go on and on and on and on 
+       
+      We are the champions, my friends 
+      And we'll keep on fighting till the end 
+      We are the champions 
+      We are the champions 
+      No time for losers 
+      'Cause we are the champions of the World 
+       
+      We are the champions, my friends 
+      And we'll keep on fighting till the end 
+      We are the champions 
+      We are the champions 
+      No time for losers 
+      'Cause we are the champions of the World 
+    </pre>
   </div>
 </div>
 
