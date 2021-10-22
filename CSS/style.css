@@ -118,6 +118,7 @@ margin-bottom: 75px;
 .container{
   width: 70%;
   margin: auto;
+  height: 100%;
 }
  .a{
    width: 70%;
@@ -302,6 +303,10 @@ nav{
   justify-content: center;
 }
 
+.scrollbar{
+  overflow-y: auto;
+  height: 700px;
+}
 
 /* Menu Link Styles */
 
@@ -320,6 +325,7 @@ nav{
 .item-title{
   grid-area: header;
 }
+
 .item-text{
   grid-area: main;
   font-weight: bold;
@@ -344,7 +350,7 @@ img.boeken{
     "main main . sidebar"
     "footer footer footer footer"
   ;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px;
 }
 
@@ -409,7 +415,7 @@ body{
 }
 
 .orange{
-  background-color: #b97d4b;
+  background-color: orange;
   border-radius: 50px;
 }
 
@@ -423,6 +429,10 @@ body{
   border-radius: 50px;
 }
 
+.purple{
+  background-color: #CBC3E3;
+  border-radius: 50px;
+}
 /* scrollbar */
 
 ::-webkit-scrollbar-track

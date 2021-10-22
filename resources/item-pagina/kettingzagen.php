@@ -8,7 +8,7 @@
 </body>
 <div class="container">
   <div class="text">
-    <div class="items">
+    <div class="items scrollbar">
       <div class="item-text">
       <h1>Kettingzagen</h1>
           <p>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen.</p>
