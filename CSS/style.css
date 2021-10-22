@@ -293,10 +293,10 @@ h1{
   margin-bottom: 10px;
   margin-left: 5px;
 }
-
+/* 
 body{
   overflow: hidden;
-}
+} */
 
 .img-item{
   height: 100%;
@@ -327,7 +327,7 @@ body{
 
 /* songs */
 .lyrics{
-  text-align: center;
+  padding-top: 20px;
 }
 
 .blue{
@@ -432,6 +432,8 @@ border-top: 1px black solid;
 footer img{
 width: 60px;
 }
+
 footer img a{
   text-decoration: none;
   }
+
