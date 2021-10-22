@@ -1,6 +1,6 @@
 <?php require_once 'backend/config.php'; ?>
-
-    <footer>
+</div>
+    <footer id="footer">
         <div class="footer_container">
         <p style="text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> CodeCamp All Rights Reserved</p>
             <div class="footer-img">
