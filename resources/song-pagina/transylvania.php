@@ -2,7 +2,7 @@
 <body>
 <div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
     <li class="breadcrumb-item"> <a href="#">Transylvania</a></li>
  </ul>
