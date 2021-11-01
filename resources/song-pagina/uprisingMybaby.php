@@ -1,10 +1,12 @@
 <?php require_once '../../header.php' ?>
 <body>
+<div class="container_bc">
  <ul class="breadcrumb">
     <li class="breadcrumb-item"> <a href="#">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
     <li class="breadcrumb-item"> <a href="#">uprising My Baby</a></li>
  </ul>
+</div>
 </body>
 <div class="container green">
   <div class="text">
