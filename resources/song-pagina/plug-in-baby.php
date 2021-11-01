@@ -1,7 +1,15 @@
 <?php require_once '../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+    <li class="breadcrumb-item"> <a href="#">Plug In Baby</a></li>
+ </ul>
+</body>
 <div class="container orange">
   <div class="text scrollbar">
+  <div class="text">
+  <div class="white">
     <h1>Plug in baby ~Muse</h1>
     <pre class="lyrics">
       I've exposed your lies, baby
@@ -32,6 +40,7 @@
       And I've seen your loving
       Mine is gone
     </pre>
+  </div>
   </div>
 </div>
 

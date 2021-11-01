@@ -1,9 +1,17 @@
 <?php require_once '../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+    <li class="breadcrumb-item"> <a href="#">Uprising Muse</a></li>
+ </ul>
+</body>
 <div class="container green">
   <div class="text scrollbar">
+  <div class="text">
+    <div class="dark-red">
     <h1>Uprising ~Muse</h1>
-    <pre class="lyrics-red lyrics">
+    <pre class="lyrics">
       Paranoia is in bloom
       The PR transmissions will resume
       They'll try to push drugs that keep us all dumbed down
@@ -46,6 +54,7 @@
       We will be victorious
       (So come on)
     </pre>
+    </div>
   </div>
 </div>
 

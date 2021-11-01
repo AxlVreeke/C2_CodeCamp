@@ -1,5 +1,12 @@
 <?php require_once '../../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Personen</a></li>
+    <li class="breadcrumb-item"> <a href="#">Acteurs</a></li>
+    <li class="breadcrumb-item"> <a href="#">Timothy Dalton</a></li>
+ </ul>
+</body>
 <div class="container green">
   <div class="text">
     <h1>Timoty Dalton</h1>

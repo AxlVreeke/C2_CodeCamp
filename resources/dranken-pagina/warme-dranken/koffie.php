@@ -1,4 +1,13 @@
-<?php require_once '../../../header.php'; ?>
+<?php require_once '../../../header.php' ?>
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Dranken</a></li>
+    <li class="breadcrumb-item"> <a href="#">Warme Dranken</a></li>
+    <li class="breadcrumb-item"> <a href="#">Koffie</a></li>
+ </ul>
+</body>
+<?php require_once '../../../footer.php' ?>
 <div class="container purple">
   <div class="item">
     <div class="item-title">
@@ -18,6 +27,10 @@
     <div class="img-boeken">
       <img src="<?= $base_url ?>/IMG/koffie.jpg" alt="koffie" class="img-item">
     </div>
+  </div>
+  <div class="doorklikken">
+    <p>Klik hier om naar de "George Clooney" pagina te gaan:</p>
+    <a href="../../info-pagina/acteurs/george-clooney.php">Klik hier!</a>
   </div>
 </div>
 <?php require_once "../../../footer.php"; ?>

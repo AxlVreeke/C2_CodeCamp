@@ -1,4 +1,12 @@
-<?php require_once '../../../header.php'; ?>
+<?php require_once '../../../header.php' ?>
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Dranken</a></li>
+    <li class="breadcrumb-item"> <a href="#">Frisdrank</a></li>
+    <li class="breadcrumb-item"> <a href="#">Up</a></li>
+ </ul>
+</body>
 <div class="container orange">
   <div class="item">
     <div class="item-title">

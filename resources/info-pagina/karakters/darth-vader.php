@@ -1,5 +1,12 @@
 <?php require_once '../../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Personen</a></li>
+    <li class="breadcrumb-item"> <a href="#">Karakters</a></li>
+    <li class="breadcrumb-item"> <a href="#">Darth Vader</a></li>
+ </ul>
+</body>
 <div class="container yellow">
   <div class="text">
     <h1>Darth Vader</h1>

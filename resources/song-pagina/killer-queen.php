@@ -1,7 +1,15 @@
 <?php require_once '../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+    <li class="breadcrumb-item"> <a href="#">Killer-Queen</a></li>
+ </ul>
+</body>
 <div class="container blue">
   <div class="text scrollbar">
+  <div class="text">
+  <div class="white">
     <h1>Killer Queen ~Queen</h1>
     <pre class="lyrics">
       She keeps her Moet et Chandon 
@@ -64,6 +72,7 @@
       Wanna try? 
       You wanna try 
     </pre>
+  </div>
   </div>
 </div>
 

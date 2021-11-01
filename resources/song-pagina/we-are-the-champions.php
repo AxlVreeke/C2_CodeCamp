@@ -1,7 +1,14 @@
 <?php require_once '../../header.php' ?>
-
+<body>
+ <ul class="breadcrumb">
+    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+    <li class="breadcrumb-item"> <a href="#">We are the champions</a></li>
+ </ul>
+</body>
 <div class="container red">
   <div class="text">
+    <div class="white">
     <h1>We are the champions ~Queen</h1>
     <pre class="lyrics">
       I've paid my dues 
@@ -50,6 +57,7 @@
       No time for losers 
       'Cause we are the champions of the World 
     </pre>
+    </div>
   </div>
 </div>
 
