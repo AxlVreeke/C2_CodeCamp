@@ -9,6 +9,7 @@
 </div>
 </body>
 <div class="container green">
+  <div class="text scrollbar">
   <div class="text">
     <div class="dark-red">
     <h1>Uprising ~Muse</h1>

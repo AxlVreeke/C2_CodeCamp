@@ -9,6 +9,7 @@
 </div>
 </body>
 <div class="container orange">
+  <div class="text scrollbar">
   <div class="text">
   <div class="white">
     <h1>Plug in baby ~Muse</h1>
