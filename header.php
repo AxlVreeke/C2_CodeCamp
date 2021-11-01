@@ -50,6 +50,7 @@
               <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkel zagen</a>
               <a href="<?= $base_url ?>/resources/item-pagina/hamers.php">Hamers</a>
               <a href="<?= $base_url ?>/resources/item-pagina/kettingzagen.php">Kettingzagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
             </div>
           </div>
           <ul class="top-level-menu">
@@ -103,6 +104,7 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
+
               <a href="https://www.imdb.com/">IMDB</a>
               <a href="https://www.videoland.com/nl/">Videoland</a>
               <a href="https://www.movies.nl/">Movies.nl</a>
