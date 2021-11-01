@@ -103,7 +103,6 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="<?= $base_url ?>/resources/link-pagina.php">Alle Links</a>
               <a href="https://www.imdb.com/">IMDB</a>
               <a href="https://www.videoland.com/nl/">Videoland</a>
               <a href="https://www.movies.nl/">Movies.nl</a>
