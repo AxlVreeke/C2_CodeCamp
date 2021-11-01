@@ -3,58 +3,44 @@
 <div class="container red">
   <div class="text scrollbar">
     <h1>Madness ~Muse</h1>
-    <p class="lyrics">
-      She keeps her Moet et Chandon
-      In her pretty cabinet
-      "Let them eat cake", she says
-      Just like Marie Antoinette
-      A built-in remedy
-      For Khrushchev and Kennedy
-      At anytime an invitation
-      You can't decline
-      Caviar and cigarettes
-      Well versed in etiquette
-      Extraordinarily nice
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Recommended at the price
-      Insatiable an appetite
-      Wanna try?
-      To avoid complications
-      She never kept the same address
-      In conversation
-      She spoke just like a baroness
-      Met a man from China
-      Went down to Geisha Minah
-      Then again incidentally
-      If you're that way inclined
-      Perfume came naturally from Paris (naturally)
-      For cars she couldn't care less
-      Fastidious and precise
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Drop of a hat she's as willing as
-      Playful as a pussy cat
-      Then momentarily out of action
-      Temporarily out of gas
-      To absolutely drive you wild, wild
-      She's all out to get you
-      She's a Killer Queen
-      Gunpowder, gelatine
-      Dynamite with a laser beam
-      Guaranteed to blow your mind
-      Anytime
-      Recommended at the price
-      Insatiable an appetite
-      Wanna try?
-      You wanna try
-    </p>
+    <pre class="lyrics">
+      I, I can't get these memories out of my mind 
+      And some kind of madness has started to evolve 
+      I, I tried so hard to let you go 
+      But some kind of madness is swallowing me whole, yeah 
+       
+      I have finally seen the light 
+      And I have finally realized 
+      What you mean 
+      Oh oh oh 
+       
+      And now, I need to know is this real love 
+      Or is it just madness keeping us afloat? 
+      And when I look back at all the crazy fights we had 
+      Like some kind of madness 
+      Was taking control 
+      Yeah 
+       
+      And now I have finally seen the light 
+      And I have finally realized 
+      What you need 
+      Mm 
+       
+      And now I have finally seen the end (Finally seen the end) 
+      And I'm not expecting you to care (Expecting you to care) 
+      I have finally seen the light (Finally seen the light) 
+      I have finally realized (Realized) 
+      I need to love 
+      I need to love 
+       
+      Come to me, 
+      Trust in your dream 
+      Come on and rescue me 
+      Yes I have known, I can be wrong 
+      Maybe I'm too headstrong 
+      Our love is 
+      Madness 
+    </pre>
   </div>
 </div>
 
