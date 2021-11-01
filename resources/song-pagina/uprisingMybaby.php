@@ -10,7 +10,6 @@
 </body>
 <div class="container green">
   <div class="text scrollbar">
-  <div class="text">
     <div class="dark-red">
     <h1>Uprising ~My baby</h1>
     <pre class="lyrics">

@@ -10,7 +10,6 @@
 </body>
 <div class="container blue">
   <div class="text scrollbar">
-  <div class="text">
   <div class="white">
     <h1>Killer Queen ~Queen</h1>
     <pre class="lyrics">
