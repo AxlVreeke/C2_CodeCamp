@@ -2,7 +2,7 @@
 <body>
 <div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
     <li class="breadcrumb-item"> <a href="#">Transylvania</a></li>
  </ul>
@@ -11,7 +11,7 @@
 <div class="container red">
   <div class="text scrollbar">
     <div class="white">
-      <h1>Iron Maiden ~Transylvania Lyrics</h1>
+      <h1>Transylvania Lyrics ~Iron Maiden</h1>
       <pre class="lyrics">
         [instrumental]
       </pre>
