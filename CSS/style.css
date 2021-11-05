@@ -449,6 +449,10 @@ h1 {
 
 
 /* songs */
+.lyrics-content{
+    display: flex;
+    justify-content: space-between;
+}
 
 .lyrics {
     padding-top: 20px;
@@ -569,7 +573,7 @@ footer {
 }
 
 footer img {
-    width: 60px;
+    width: 40px;
 }
 
 footer img a {

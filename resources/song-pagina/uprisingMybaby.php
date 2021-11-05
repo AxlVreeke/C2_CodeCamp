@@ -12,6 +12,7 @@
   <div class="text scrollbar">
     <div class="dark-red">
     <h1>Uprising ~My baby</h1>
+    <div class="lyrics-content">
     <pre class="lyrics">
       Allow me in your tub
       Just allow me in your club
@@ -57,6 +58,8 @@
       This girl keeps on rising
       Keep on rising up
     </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LkXLLpT2OSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   </div>
 </div>

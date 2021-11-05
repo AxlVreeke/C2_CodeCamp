@@ -12,6 +12,7 @@
   <div class="text scrollbar">
     <div class="dark-red">
     <h1>Uprising ~Muse</h1>
+    <div class="lyrics-content">
     <pre class="lyrics">
       Paranoia is in bloom
       The PR transmissions will resume
@@ -55,6 +56,8 @@
       We will be victorious
       (So come on)
     </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w8KQmps-Sog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   </div>
 </div>

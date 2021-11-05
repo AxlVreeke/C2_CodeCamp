@@ -12,6 +12,7 @@
   <div class="text">
     <div class="white">
     <h1>We are the champions ~Queen</h1>
+    <div class="lyrics-content">
     <pre class="lyrics">
       I've paid my dues 
       Time after time 
@@ -59,6 +60,7 @@
       No time for losers 
       'Cause we are the champions of the World 
     </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/04854XqcfCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
