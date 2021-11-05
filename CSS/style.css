@@ -6,14 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container_bc{
-  width: 70%;
-  margin: auto;
-  margin-top: 10px;
-}
+
 *:first-letter {
     text-transform: uppercase;
 }
+/* Log in styling begin */
 .login {
     width: 400px;
     margin: 200px auto;
@@ -23,7 +20,7 @@
   /* Reset top and bottom margins from certain elements */
   .login-header,
   .login p {
-    margin-top: 5px;
+    margin-top: 1px;
     margin-bottom: 0;
   }
   
@@ -96,12 +93,19 @@
   .login input[type="submit"]:focus {
     border-color: rgb(15, 15, 15);
   }
+  /* log in styling einde */
+
+  /* kruimelpad begin */
 .breadcrumb {
     list-style: none;
     overflow: hidden;
     font: 18px Sans-Serif;
 }
-
+.container_bc{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
 .breadcrumb li {
     float: left;
 }
@@ -196,7 +200,7 @@
 .breadcrumb li:last-child a::after {
     border: 0;
 }
-
+/* kruimelpad einde */
 .round {
     border-radius: 50%;
 }
