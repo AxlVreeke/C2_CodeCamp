@@ -41,7 +41,18 @@
               <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a>
             </div>
           </div>
-
+          <div class="dropdown">
+            <button class="dropbtn"><b>Voorwerpen</b>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="<?= $base_url ?>/resources/item-pagina/boeken.php">Boeken</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkel zagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/hamers.php">Hamers</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/handzagen.php">Handzagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
+            </div>
+          </div>
           <ul class="top-level-menu">
             <li>
               <a class="font-color nav-title"><b class="nav-title-style">Dranken</b></a>
@@ -49,7 +60,7 @@
                 <li>
                   <a href="#" class="font-color">Frisdrank</a>
                   <ul class="third-level-menu">
-                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php ">Cola</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/cola.php">Cola</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/up.php">Up</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/dranken-pagina/frisdrank/sinas.php">Sinas</a></li>
                   </ul>
@@ -65,27 +76,6 @@
               </ul>
             </li>
           </ul>
-
-          <ul class="top-level-menu">
-            <li>
-              <a class="font-color nav-title"><b class="nav-title-style">Voorwerpen</b></a>
-              <ul class="second-level-menu">
-                <li>
-                  <a href="#" class="font-color">Zagen</a>
-                  <ul class="third-level-menu">
-                    <li><a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkel zagen</a></li>
-                    <li><a href="<?= $base_url ?>/resources/item-pagina/handzagen.php">Handzagen</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="<?= $base_url ?>/resources/item-pagina/boeken.php">Boeken</a>
-                  <a href="<?= $base_url ?>/resources/item-pagina/hamers.php">Hamers</a>
-                  <a href="<?= $base_url ?>/resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          
           <ul class="top-level-menu">
             <li>
               <a class="font-color nav-title" href="#"><b class="nav-title-style">Personen</b></a>
