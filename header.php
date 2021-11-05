@@ -110,6 +110,11 @@
               <a href="https://www.movies.nl/">Movies.nl</a>
             </div>
           </div>
+          <div class="dropdown">
+            <a href="<?= $base_url ?>/resources/login.php">
+              <button class="button_home" type="button"><b>Log in</b></button>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
