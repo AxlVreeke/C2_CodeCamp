@@ -1,4 +1,5 @@
 <?php require_once '../../header.php' ?>
+
 <body>
 <div class="container_bc">
  <ul class="breadcrumb">
@@ -11,8 +12,8 @@
 <div class="container red">
   <div class="text">
     <div class="white">
-    <h1>We are the champions ~Queen</h1>
-    <pre class="lyrics">
+      <h1>We are the champions ~Queen</h1>
+      <pre class="lyrics">
       I've paid my dues 
       Time after time 
       I've done my sentence 
