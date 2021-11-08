@@ -1,11 +1,13 @@
 <?php require_once '../../../header.php' ?>
 <body>
+<div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Personen</a></li>
     <li class="breadcrumb-item"> <a href="#">Karakters</a></li>
     <li class="breadcrumb-item"> <a href="#">James Bond</a></li>
  </ul>
+</div>
 </body>
 <div class="container">
     <div class="text">
@@ -23,7 +25,7 @@
           </ul>  
         </div> 
         <div class="img-boeken">
-          <img src="../../IMG/rogermoore.jpg" alt="Roger Moore" class="img-item">
+          <img src="../../../IMG/rogermoore.jpg" alt="Roger Moore" class="img-rooger">
         </div> 
       </div>
     </div>

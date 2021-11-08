@@ -1,15 +1,18 @@
 <?php require_once '../../header.php' ?>
-<body>
+<body class="background-red">
+<div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
     <li class="breadcrumb-item"> <a href="#">Uprising Muse</a></li>
  </ul>
+</div>
 </body>
 <div class="container green">
-  <div class="text">
+  <div class="text scrollbar">
     <div class="dark-red">
     <h1>Uprising ~Muse</h1>
+    <div class="lyrics-content">
     <pre class="lyrics">
       Paranoia is in bloom
       The PR transmissions will resume
@@ -53,6 +56,8 @@
       We will be victorious
       (So come on)
     </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w8KQmps-Sog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   </div>
 </div>

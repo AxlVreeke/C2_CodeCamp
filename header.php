@@ -17,7 +17,7 @@
       <div class="header-container">
         <div class="img-nav">
           <a href="<?= $base_url ?>/index.php">
-          <img src="<?= $base_url ?>/IMG/logo.png" class="logo-codecamp" alt="logo">
+          <img src="<?= $base_url ?>/IMG/codecamp_logo_full.jfif" class="logo-codecamp" alt="logo">
           </a>
         </div>
         <div class="buttons-nav">
@@ -47,9 +47,10 @@
             </button>
             <div class="dropdown-content">
               <a href="<?= $base_url ?>/resources/item-pagina/boeken.php">Boeken</a>
-              <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkel zagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkelzagen</a>
               <a href="<?= $base_url ?>/resources/item-pagina/hamers.php">Hamers</a>
-              <a href="<?= $base_url ?>/resources/item-pagina/kettingzagen.php">Kettingzagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/handzagen.php">Handzagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
             </div>
           </div>
           <ul class="top-level-menu">
@@ -103,11 +104,16 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="<?= $base_url ?>/resources/link-pagina.php">Alle Links</a>
+
               <a href="https://www.imdb.com/">IMDB</a>
               <a href="https://www.videoland.com/nl/">Videoland</a>
               <a href="https://www.movies.nl/">Movies.nl</a>
             </div>
+          </div>
+          <div class="dropdown">
+            <a href="<?= $base_url ?>/resources/login.php">
+              <button class="button_home" type="button"><b>Log in</b></button>
+            </a>
           </div>
         </div>
       </div>

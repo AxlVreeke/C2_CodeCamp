@@ -1,16 +1,20 @@
 <?php require_once '../../header.php' ?>
-<body>
- <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
-    <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
-    <li class="breadcrumb-item"> <a href="#">Killer-Queen</a></li>
- </ul>
+
+<body class="background-blue">
+  <div class="container_bc">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
+      <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
+      <li class="breadcrumb-item"> <a href="#">Killer-Queen</a></li>
+    </ul>
+  </div>
 </body>
 <div class="container blue">
-  <div class="text">
-  <div class="white">
-    <h1>Killer Queen ~Queen</h1>
-    <pre class="lyrics">
+  <div class="text scrollbar">
+    <div class="white">
+      <h1>Killer Queen ~Queen</h1>
+      <div class="lyrics-content">
+        <pre class="lyrics">
       She keeps her Moet et Chandon 
       In her pretty cabinet 
       "Let them eat cake", she says 
@@ -71,7 +75,9 @@
       Wanna try? 
       You wanna try 
     </pre>
-  </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZBtPf7FOoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 </div>
 

@@ -1,11 +1,13 @@
 <?php require_once '../../../header.php' ?>
 <body>
+<div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Dranken</a></li>
     <li class="breadcrumb-item"> <a href="#">Frisdrank</a></li>
     <li class="breadcrumb-item"> <a href="#">Cola</a></li>
  </ul>
+</div>
 </body>
 <div class="container orange">
   <div class="item">
@@ -29,7 +31,7 @@
   </div>
   <div class="doorklikken">
     <p>Klik hier om naar de "Rooger Moore" pagina te gaan:</p>
-    <a href="../info-pagina/acteurs/rooger-moore.php">Klik hier!</a>
+    <a href="../../info-pagina/acteurs/rooger-moore.php">Klik hier!</a>
   </div>
 </div>
 <?php require_once "../../../footer.php"; ?>

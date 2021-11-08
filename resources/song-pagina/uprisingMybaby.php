@@ -1,15 +1,18 @@
 <?php require_once '../../header.php' ?>
-<body>
+<body class="background-red">
+<div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Songteksten</a></li>
     <li class="breadcrumb-item"> <a href="#">uprising My Baby</a></li>
  </ul>
+</div>
 </body>
 <div class="container green">
-  <div class="text">
+  <div class="text scrollbar">
     <div class="dark-red">
     <h1>Uprising ~My baby</h1>
+    <div class="lyrics-content">
     <pre class="lyrics">
       Allow me in your tub
       Just allow me in your club
@@ -55,6 +58,8 @@
       This girl keeps on rising
       Keep on rising up
     </pre>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LkXLLpT2OSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     </div>
   </div>
 </div>

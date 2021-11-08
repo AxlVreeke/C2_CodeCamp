@@ -1,10 +1,12 @@
 <?php require_once '../../header.php'; ?>
 <body>
+<div class="container_bc">
  <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
     <li class="breadcrumb-item"> <a href="#">Item Pagina</a></li>
     <li class="breadcrumb-item"> <a href="#">Schroevendraaiers</a></li>
  </ul>
+</div>
 </body>
 <div class="container">
   <div class="item scrollbar">
