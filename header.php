@@ -47,7 +47,7 @@
             </button>
             <div class="dropdown-content">
               <a href="<?= $base_url ?>/resources/item-pagina/boeken.php">Boeken</a>
-              <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkel zagen</a>
+              <a href="<?= $base_url ?>/resources/item-pagina/cirkelzagen.php">Cirkelzagen</a>
               <a href="<?= $base_url ?>/resources/item-pagina/hamers.php">Hamers</a>
               <a href="<?= $base_url ?>/resources/item-pagina/handzagen.php">Handzagen</a>
               <a href="<?= $base_url ?>/resources/item-pagina/schroevendraaiers.php">Schroevendraaiers</a>
