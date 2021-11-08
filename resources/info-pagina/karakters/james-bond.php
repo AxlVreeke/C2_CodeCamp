@@ -25,7 +25,7 @@
           </ul>  
         </div> 
         <div class="img-boeken">
-          <img src="../../IMG/rogermoore.jpg" alt="Roger Moore" class="img-item">
+          <img src="../../../IMG/rogermoore.jpg" alt="Roger Moore" class="img-rooger">
         </div> 
       </div>
     </div>
