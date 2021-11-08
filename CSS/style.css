@@ -6,34 +6,50 @@
     font-family: 'Roboto', sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+.container_bc {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
 
+>>>>>>> Stashed changes
 *:first-letter {
     text-transform: uppercase;
 }
+
+
 /* Log in styling begin */
+
 .login {
     width: 400px;
     margin: 200px auto;
     font-size: 16px;
-  }
-  
-  /* Reset top and bottom margins from certain elements */
-  .login-header,
-  .login p {
+}
+
+
+/* Reset top and bottom margins from certain elements */
+
+.login-header,
+.login p {
     margin-top: 1px;
     margin-bottom: 0;
-  }
-  
-  /* The triangle form is achieved by a CSS hack */
-  /* .login-triangle {
+}
+
+
+/* The triangle form is achieved by a CSS hack */
+
+
+/* .login-triangle {
     width: 0;
     margin-right: auto;
     margin-left: auto;
     border: 12px solid transparent;
     border-bottom-color: #28d;
   } */
-  
-  .login-header {
+
+.login-header {
     background: black;
     padding: 20px;
     font-size: 1.4em;
@@ -41,19 +57,21 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-  }
-  
-  .login-container {
+}
+
+.login-container {
     background: #ebebeb;
     padding: 12px;
-  }
-  
-  /* Every row inside .login-container is defined with p tags */
-  .login p {
+}
+
+
+/* Every row inside .login-container is defined with p tags */
+
+.login p {
     padding: 12px;
-  }
-  
-  .login input {
+}
+
+.login input {
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -63,49 +81,59 @@
     outline: 0;
     font-family: inherit;
     font-size: 0.95em;
-  }
-  
-  .login input[type="email"],
-  .login input[type="password"] {
+}
+
+.login input[type="email"],
+.login input[type="password"] {
     background: #fff;
     border-color: #bbb;
     color: #555;
-  }
-  
-  /* Text fields' focus effect */
-  .login input[type="email"]:focus,
-  .login input[type="password"]:focus {
+}
+
+
+/* Text fields' focus effect */
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
     border-color: #888;
-  }
-  
-  .login input[type="submit"] {
+}
+
+.login input[type="submit"] {
     background: black;
     border-color: transparent;
     color: #fff;
     cursor: pointer;
-  }
-  
-  .login input[type="submit"]:hover {
-    background: #333333;
-  }
-  
-  /* Buttons' focus effect */
-  .login input[type="submit"]:focus {
-    border-color: rgb(15, 15, 15);
-  }
-  /* log in styling einde */
+}
 
-  /* kruimelpad begin */
+.login input[type="submit"]:hover {
+    background: #333333;
+}
+
+
+/* Buttons' focus effect */
+
+.login input[type="submit"]:focus {
+    border-color: rgb(15, 15, 15);
+}
+
+
+/* log in styling einde */
+
+
+/* kruimelpad begin */
+
 .breadcrumb {
     list-style: none;
     overflow: hidden;
     font: 18px Sans-Serif;
 }
-.container_bc{
+
+.container_bc {
     width: 70%;
     margin: auto;
     margin-top: 10px;
-  }
+}
+
 .breadcrumb li {
     float: left;
 }
@@ -200,7 +228,10 @@
 .breadcrumb li:last-child a::after {
     border: 0;
 }
+
+
 /* kruimelpad einde */
+
 .round {
     border-radius: 50%;
 }
@@ -495,8 +526,10 @@ img.boeken {
     padding: 45px;
     border-radius: 50px;
     height: 700px;
-    border: black 1px solid;
     overflow: auto;
+    width: 96%;
+    left: 0px;
+    border: 1px dotted black;
 }
 
 h1 {
@@ -518,6 +551,7 @@ h1 {
     border: black solid 1px;
     border-radius: 10px;
 }
+
 
 /* .items {
     display: grid;
@@ -543,7 +577,8 @@ h1 {
 
 
 /* songs */
-.lyrics-content{
+
+.lyrics-content {
     display: flex;
     justify-content: space-between;
 }
@@ -597,7 +632,7 @@ h1 {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -652,14 +687,14 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
     color: white;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
 }
 
 .footer_container {
-    width: 90%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
