@@ -12,6 +12,7 @@
   <div class="text scrollbar">
     <div class="white">
       <h1>Plug in baby ~Muse</h1>
+      <div class="lyrics-content">
       <pre class="lyrics">
         I've exposed your lies, baby
         The underneath no big surprise
@@ -41,6 +42,8 @@
         And I've seen your loving
         Mine is gone
       </pre>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dbB-mICjkQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>
