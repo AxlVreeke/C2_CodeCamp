@@ -126,6 +126,7 @@
     list-style: none;
     overflow: hidden;
     font: 18px Sans-Serif;
+    background-color: transparent;
 }
 
 .container_bc {
@@ -531,7 +532,6 @@ img.boeken {
     overflow: auto;
     width: 96%;
     left: 0px;
-    border: 1px dotted black;
 }
 
 h1 {
@@ -625,6 +625,18 @@ h1 {
 .purple {
     background-color: #CBC3E3;
     border-radius: 50px;
+}
+
+.background-blue{
+    background-color: lightblue;
+}
+
+.background-red{
+    background-color: rgb(248, 81, 81);
+}
+
+.background-oranje{
+    background-color: rgb(255, 191, 72);
 }
 
 
