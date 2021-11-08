@@ -284,6 +284,7 @@
 
 nav {
     border-bottom: black solid 1px;
+    background-color: lightgray;
     box-shadow: 3px;
 }
 
@@ -687,7 +688,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: gray;
     color: white;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
