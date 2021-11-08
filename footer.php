@@ -1,7 +1,7 @@
 <?php require_once 'backend/config.php'; ?>
 </div>
     <footer id="footer">
-        <div class="footer_container">
+    <div class="footer_container {">
         <p style="text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> CodeCamp All Rights Reserved</p>
             <div class="footer-img">
                 <a href="https://www.facebook.com" target="_blank">
