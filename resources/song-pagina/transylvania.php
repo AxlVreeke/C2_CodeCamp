@@ -11,7 +11,7 @@
 <div class="container red">
   <div class="text scrollbar">
     <div class="white">
-      <h1>Transylvania Lyrics ~Iron Maiden</h1>
+      <h1>Transylvania ~Iron Maiden</h1>
       <div class="lyrics-content">
       <pre class="lyrics">
         [instrumental]
