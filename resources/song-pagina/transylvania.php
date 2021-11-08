@@ -12,9 +12,12 @@
   <div class="text scrollbar">
     <div class="white">
       <h1>Transylvania Lyrics ~Iron Maiden</h1>
+      <div class="lyrics-content">
       <pre class="lyrics">
         [instrumental]
       </pre>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GY0RZriJ3gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>

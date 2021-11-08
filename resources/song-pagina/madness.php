@@ -12,6 +12,7 @@
   <div class="text scrollbar">
     <div class="white">
       <h1>Madness ~Muse</h1>
+      <div class="lyrics-content">
       <pre class="lyrics">
         I, I can't get these memories out of my mind 
         And some kind of madness has started to evolve 
@@ -50,6 +51,8 @@
         Our love is 
         Madness 
       </pre>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ek0SgwWmF9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>
