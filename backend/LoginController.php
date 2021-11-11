@@ -1,4 +1,4 @@
-<!-- session_start();
+session_start();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -12,4 +12,4 @@ if(!password_verify($password, $user['password']))
     die("Error: wachtwoord niet juist!");
 }
 
-$_SESSION[user_id] = $user['id']; -->
+$_SESSION[user_id] = $user['id'];

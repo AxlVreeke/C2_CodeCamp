@@ -1,6 +1,6 @@
 <?php require_once '../header.php'; ?>
 
-<div class="login">
+<!-- <div class="login">
   <div class="login-triangle"></div>
   
   <h2 class="login-header">Log in</h2>
@@ -10,7 +10,21 @@
     <p><input type="password" placeholder="Password"></p>
     <p><input type="submit" value="Log in"></p>
   </form>
-</div>
+</div> -->
 
+<!-- <form action="backend/LoginController.php" method="POST">
+  <div class="form-group">
+    <label for="username">Gebruikersnaam:</label>
+    <input type="text" name="username" id="username">
+  </div>
+
+  <div class="form-group">
+    <label for="password">Wachtwoord:</label>
+    <input type="password" name="password" id="password"></div>
+  </div>
+
+  <input type="submit" value="Login">
+
+</form> -->
 
 <?php require_once "../footer.php"; ?>
