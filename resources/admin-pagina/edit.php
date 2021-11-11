@@ -12,13 +12,13 @@
     <label for="fname">Titel:</label>
     <input type="text" name="title" value="<?php echo $boek['title']; ?>">
     <label for="fname">Auteur:</label>
-    <input type="text" name="title" value="<?php echo $boek['author']; ?>">
+    <input type="text" name="author" value="<?php echo $boek['author']; ?>">
     <label for="fname">Prijs:</label>
-    <input type="number" name="title" value="<?php echo $boek['price']; ?>">
+    <input type="number" name="price" value="<?php echo $boek['price']; ?>">
     <label for="fname">Pagina's:</label>
-    <input type="number" name="title" value="<?php echo $boek['pages']; ?>">
+    <input type="number" name="pages" value="<?php echo $boek['pages']; ?>">
     <label for="fname">Beschrijving:</label>
-    <input type="text" name="title" value="<?php echo $boek['description']; ?>">
+    <textarea rows="4" cols="50" name="description" form="usrform"><?php echo $boek['description']; ?></textarea>
     <input type="submit" value="Opslaan">
 </form>
 
