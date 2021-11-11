@@ -17,7 +17,7 @@
       <div class="header-container">
         <div class="img-nav">
           <a href="<?= $base_url ?>/index.php">
-          <img src="<?= $base_url ?>/IMG/codecamplogo_gray.png" class="logo-codecamp" alt="logo">
+          <img src="<?= $base_url ?>/IMG/codecamplogo.png" class="logo-codecamp" alt="logo">
           </a>
         </div>
         <div class="buttons-nav">
@@ -36,9 +36,9 @@
               <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen (Queen)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby (Muse)</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (use)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising (My Baby)</a>
-              <!-- <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a> DELETED -->
+              <!-- <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a> DELETED! -->
             </div>
           </div>
           <div class="dropdown">

@@ -8,18 +8,18 @@
  </ul>
 </div>
 </body>
-<div class="container">
+<div class="container blue">
   <div class="item scrollbar">
     <div class="item-title">
       <h1>Hamers</h1>
     </div>
-    <div class="item-text">
+    <div class="item-text white">
       <p>
         Een hamer is een klop- of slagwerktuig. Een hamer bestaat uit een steel, het handvat, met aan het eind de zogenaamde hamerkop.
         De vorm en grootte en het materiaal van de hamerkop en de lengte van de steel hangen sterk af van het type hamer. Bij hamers met een ijzeren hamerkop staat vaak het aantal grammen in het metaal geslagen. Voor speciale uitvoeringen, zoals voor percussie-instrumenten, wordt ook de term mallet (uit het Engels) gebruikt.
       </p>
     </div>
-    <div class="item-text-2">
+    <div class="item-text-2 white">
       <p>
         Een metalen hamerkop van 50-300 gram op een houten steel van ca. 30 cm lang die onder meer wordt gebruikt om spijkers (draadnagels) in houten voorwerpen te slaan.
         Zoals een gewone hamer, maar de achterkant van de hamer heeft een platte V-groef waarin spijkers geklemd kunnen worden. De bovenkant is afgerond zodat de geklemde spijker uit het object gerold kan worden.
