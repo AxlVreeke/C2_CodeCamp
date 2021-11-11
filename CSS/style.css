@@ -55,6 +55,16 @@ body{
 .map_zoom{
     padding: 2px;
 }
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:first-child{
+    background-color:#00BFFF;
+}
+tr:hover{
+    background-color:#00BFFF;
+}
+
 .login-header {
     background: #00BFFF;
     padding: 20px;
