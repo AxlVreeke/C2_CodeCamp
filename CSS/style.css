@@ -279,7 +279,7 @@ tr:hover {
     border-radius: 50px;
     font-size: 30px;
     color: black;
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -304,7 +304,7 @@ tr:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 50px;
 }
 
 .container {
@@ -693,12 +693,16 @@ h1 {
 
 /* Styling Item pagina's */
 
-/* .image-size{
+.image-size{
     max-width: 100%;  
     height: auto; 
 }
 
-.item-styling{
+/* .long-image{
+    image
+} */
+
+/* .item-styling{
     height: 1;
 } */
 
@@ -800,7 +804,7 @@ footer img a {
     position: absolute;
     height: 500px;
     width: 2000px;
-    background-color: #d8d8d8;
+    background-color: #4099e2;
     bottom: -100px;
     left: -780px;
     border-radius: 50%;
@@ -810,7 +814,7 @@ footer img a {
     position: absolute;
     height: 500px;
     width: 2200px;
-    background-color: #d8d8d8;
+    background-color: #4099e2;
     bottom: -120px;
     right: -500px;
     border-radius: 90%;
@@ -829,4 +833,7 @@ iframe {
 .contactinformatie {
     display: flex;
     justify-content: space-around;
+    background-color: #4099e2;
+    padding: 25px;
+    border-radius: 20px;
 }

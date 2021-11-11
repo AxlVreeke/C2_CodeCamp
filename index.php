@@ -1,6 +1,6 @@
 <?php require_once "header.php" ?>
 <style type="text/css"></style>
-<body onload="startTime()" class="homepage-color">
+<body onload="startTime()" class="background-blue">
   <div class="container">
 
   
