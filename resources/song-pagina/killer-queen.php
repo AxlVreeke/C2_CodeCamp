@@ -1,6 +1,6 @@
 <?php require_once '../../header.php' ?>
 
-<body>
+<body class="background-blue">
   <div class="container_bc">
     <ul class="breadcrumb">
       <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>

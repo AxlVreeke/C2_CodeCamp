@@ -17,7 +17,7 @@
       <div class="header-container">
         <div class="img-nav">
           <a href="<?= $base_url ?>/index.php">
-          <img src="<?= $base_url ?>/IMG/codecamp_logo_full.jfif" class="logo-codecamp" alt="logo">
+          <img src="<?= $base_url ?>/IMG/codecamplogo_gray.png" class="logo-codecamp" alt="logo">
           </a>
         </div>
         <div class="buttons-nav">

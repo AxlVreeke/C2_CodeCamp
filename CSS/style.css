@@ -6,6 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+  padding-bottom: 100px;
+}
 
 .container_bc {
     width: 70%;
@@ -124,6 +127,7 @@
     list-style: none;
     overflow: hidden;
     font: 18px Sans-Serif;
+    background-color: transparent;
 }
 
 .container_bc {
@@ -181,6 +185,15 @@
 }
 
 .breadcrumb li:first-child a {
+  padding-left: 10px;
+}
+
+.breadcrumb li:not(:first-child) a{
+  background:        lightgray;
+}
+
+.breadcrumb li:not(:first-child) a:after{
+  border-left-color: lightgray;
     padding-left: 10px;
 }
 
@@ -282,7 +295,7 @@
 
 nav {
     border-bottom: black solid 1px;
-    background-color: #e7e7e7;
+    background-color: #e6e3e3;
     box-shadow: 3px;
 }
 
@@ -459,7 +472,7 @@ nav {
 .nav-title {
     padding: 5px;
     margin: auto;
-    background-color: #e7e7e7;
+    background-color: #e6e3e3;
 }
 
 .nav-title-style {
@@ -529,7 +542,6 @@ img.boeken {
     overflow: auto;
     width: 96%;
     left: 0px;
-    border: 1px dotted black;
 }
 
 h1 {
@@ -625,6 +637,18 @@ h1 {
     border-radius: 50px;
 }
 
+.background-blue{
+    background-color: lightblue;
+}
+
+.background-red{
+    background-color: rgb(248, 81, 81);
+}
+
+.background-oranje{
+    background-color: rgb(255, 191, 72);
+}
+
 
 /* scrollbar */
 
@@ -682,6 +706,15 @@ h1 {
 
 
 /* Footer Styling */
+footer{
+position: fixed;
+bottom:0;
+width:100%;
+background-color: grey;
+color: white;
+padding: 10px 0px 10px 0px;
+border-top: 1px black solid;
+}
 
 footer {
     position: absolute;
