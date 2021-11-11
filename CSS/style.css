@@ -141,12 +141,12 @@ body {
 }
 
 .breadcrumb li a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding: 10px 0 10px 65px;
     background: darkgray;
     /* fallback color */
-    background: rgb(100, 100, 100);
+    background: darkgray;
     position: relative;
     display: block;
     float: left;
@@ -158,8 +158,9 @@ body {
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
+    /* Go big on the size, and let overflow hide */
     border-bottom: 50px solid transparent;
-    border-left: 30px solid rgb(100, 100, 100);
+    border-left: 30px solid darkgray;
     position: absolute;
     top: 50%;
     margin-top: -50px;
@@ -174,7 +175,7 @@ body {
     height: 0;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    /* border-left: 30px solid transparent;  */
+    border-left: 30px solid white;
     position: absolute;
     top: 50%;
     margin-top: -50px;
@@ -187,38 +188,46 @@ body {
     padding-left: 10px;
 }
 
-.breadcrumb li:not(:first-child) a{
-  background:        lightgrey;
+.breadcrumb li:not(:first-child) a {
+    background: lightgray;
 }
 
-.breadcrumb li:not(:first-child) a:after{
-  border-left-color: lightgrey;
+.breadcrumb li:not(:first-child) a:after {
+    border-left-color: lightgray;
     padding-left: 10px;
 }
 
 .breadcrumb li:nth-child(2) a {
-    background: rgb(150, 150, 150);
+    background: lightgray;
 }
 
 .breadcrumb li:nth-child(2) a:after {
-    border-left-color: rgb(150, 150, 150);
+    border-left-color: lightgray;
 }
 
 .breadcrumb li:nth-child(3) a {
-    background: rgb(200, 200, 200);
+    background: lightgray;
 }
 
 .breadcrumb li:nth-child(3) a:after {
-    border-left-color: rgb(200, 200, 200);
+    border-left-color: lightgray;
 }
 
-/* .breadcrumb li:nth-child(4) a {
+.breadcrumb li:nth-child(4) a {
     background: lightgray;
 }
 
 .breadcrumb li:nth-child(4) a:after {
     border-left-color: lightgray;
-} */
+}
+
+.breadcrumb li:nth-child(5) a {
+    background: lightgray;
+}
+
+.breadcrumb li:nth-child(5) a:after {
+    border-left-color: lightgray;
+}
 
 .breadcrumb li:last-child a {
     background: transparent !important;
@@ -523,6 +532,8 @@ img.boeken {
     grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
     margin-top: 50px;
     padding: 50px;
+    border: black 1px solid;
+    border-radius: 50px;
 }
 
 .text {
@@ -614,7 +625,7 @@ h1 {
 }
 
 .green {
-    background-color: #1dcf47;
+    background-color: #28d350;
     border-radius: 50px;
 }
 
@@ -636,7 +647,7 @@ h1 {
     background-color: rgb(248, 81, 81);
 }
 
-.background-orange{
+.background-oranje {
     background-color: rgb(255, 191, 72);
 }
 
@@ -682,6 +693,9 @@ h1 {
 html {
     overflow: hidden;
 }
+
+
+/* links */
 
 .font-decor {
     color: #000000;
@@ -747,4 +761,11 @@ footer img {
 
 footer img a {
     text-decoration: none;
+}
+
+.footer-image {
+    display: flex;
+    gap: 40px;
+    display: ruby;
+    ;
 }
