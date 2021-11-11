@@ -1,5 +1,5 @@
 <?php require_once '../../../header.php' ?>
-<body>
+<body class="background-orange">
 <div class="container_bc">
  <ul class="breadcrumb">
     <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
@@ -21,7 +21,13 @@
     </div>
     <div class="item-text-2">
       <p>
-        Fanta ontstond tijdens de Tweede Wereldoorlog in Essen (Duitsland) toen Coca-Cola Duitsland niet meer aan de juiste ingrediënten voor Coca-Cola kon komen en daarom een vervangende frisdrank volgens eigen receptuur ging maken (1940). Omdat contact met het hoofdkantoor van Coca-Cola in Atlanta niet mogelijk was, is Fanta ontwikkeld zonder toestemming of overleg.[1] In 1941 werd Fanta geregistreerd als een Duits merk.[2].Na de oorlog zijn de merknaam en het recept van Fanta overgedragen aan het hoofdkantoor. Ook in Nederland is tijdens de Tweede Wereldoorlog door de Coca-Cola-fabriek in Amsterdam een product onder de naam Fanta op de markt gebracht. Het Nederlandse recept was op basis van vlierbessensap.[3] Alle naoorlogse frisdranken die onder de merknaam Fanta zijn uitgebracht hebben niets meer van doen met deze oervarianten uit de oorlog.
+        Fanta ontstond tijdens de Tweede Wereldoorlog in Essen (Duitsland) toen Coca-Cola Duitsland niet meer aan de juiste ingrediënten voor Coca-Cola kon komen en daarom een vervangende frisdrank volgens eigen receptuur ging maken (1940). 
+        Omdat contact met het hoofdkantoor van Coca-Cola in Atlanta niet mogelijk was, is Fanta ontwikkeld zonder toestemming of overleg.
+        In 1941 werd Fanta geregistreerd als een Duits merk.
+        Na de oorlog zijn de merknaam en het recept van Fanta overgedragen aan het hoofdkantoor. 
+        Ook in Nederland is tijdens de Tweede Wereldoorlog door de Coca-Cola-fabriek in Amsterdam een product onder de naam Fanta op de markt gebracht. 
+        Het Nederlandse recept was op basis van vlierbessensap.
+        Alle naoorlogse frisdranken die onder de merknaam Fanta zijn uitgebracht hebben niets meer van doen met deze oervarianten uit de oorlog.
       </p>
     </div>
     <div class="img-boeken">

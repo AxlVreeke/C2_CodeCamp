@@ -1,5 +1,5 @@
 <?php require_once '../../../header.php' ?>
-<body>
+<body class="background-blue">
 <div class="container_bc">
  <ul class="breadcrumb">
     <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
@@ -9,7 +9,7 @@
  </ul>
 </div>
 </body>
-<div class="container">
+<div class="container blue">
   <div class="item">
     <div class="item-title">
       <h1>Rooger Moore</h1>
@@ -29,5 +29,4 @@
       <img src="<?= $base_url ?>/IMG/rogermoore.jpg" alt="Rooger Moore" class="img-item">
     </div>
   </div>
-</div>
 <?php require_once "../../../footer.php"; ?>

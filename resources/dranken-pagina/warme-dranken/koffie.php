@@ -1,5 +1,5 @@
 <?php require_once '../../../header.php' ?>
-<body>
+<body class="background-purple">
 <div class="container_bc">
  <ul class="breadcrumb">
     <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
@@ -9,7 +9,6 @@
  </ul>
 </div>
 </body>
-<?php require_once '../../../footer.php' ?>
 <div class="container purple">
   <div class="item">
     <div class="item-title">
@@ -31,8 +30,7 @@
     </div>
   </div>
   <div class="doorklikken">
-    <p>Klik hier om naar de "George Clooney" pagina te gaan:</p>
-    <a href="../../info-pagina/acteurs/george-clooney.php">Klik hier!</a>
+    <a href="../../info-pagina/acteurs/george-clooney.php">Klik hier</a><p> om naar de "George Clooney" pagina te gaan.</p>
   </div>
 </div>
 <?php require_once "../../../footer.php"; ?>

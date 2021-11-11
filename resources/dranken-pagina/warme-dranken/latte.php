@@ -1,5 +1,5 @@
 <?php require_once '../../../header.php' ?>
-<body>
+<body class="background-purple">
 <div class="container_bc">
  <ul class="breadcrumb">
     <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
@@ -9,7 +9,6 @@
  </ul>
 </div>
 </body>
-<?php require_once '../../../footer.php' ?>
 </div>
 <div class="container purple">
   <div class="item">

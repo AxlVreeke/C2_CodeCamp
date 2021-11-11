@@ -9,6 +9,7 @@
  </ul>
 </div>
 </body>
+<div class="container blue">
 <div class="container">
     <div class="text">
       <div class="items">

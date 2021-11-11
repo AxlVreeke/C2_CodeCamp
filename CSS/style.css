@@ -619,12 +619,12 @@ h1 {
 }
 
 .yellow {
-    background-color: yellow;
+    background-color:  #e9d200;
     border-radius: 50px;
 }
 
 .purple {
-    background-color: #CBC3E3;
+    background-color: rgb(156, 126, 216);
     border-radius: 50px;
 }
 
@@ -642,6 +642,14 @@ h1 {
 
 .background-green{
     background-color: #5cdb79;
+}
+
+.background-purple{
+    background-color: rgb(175, 154, 216);
+}
+
+.background-yellow{
+    background-color: #ffec3d;
 }
 
 
@@ -710,7 +718,7 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: grey;
-    color: white;
+    color: black;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
 }
@@ -719,8 +727,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: gray;
-    color: white;
+    background-color: #e6e3e3;
+    color: black;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
 }
