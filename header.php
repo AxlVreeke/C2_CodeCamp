@@ -36,7 +36,7 @@
               <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen (Queen)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby (Muse)</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (muse)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising (My Baby)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a>
             </div>
