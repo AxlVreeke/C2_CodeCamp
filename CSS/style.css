@@ -6,15 +6,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-<<<<<<< Updated upstream
-=======
+
 .container_bc {
     width: 70%;
     margin: auto;
     margin-top: 10px;
 }
 
->>>>>>> Stashed changes
 *:first-letter {
     text-transform: uppercase;
 }
