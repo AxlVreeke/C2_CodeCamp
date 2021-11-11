@@ -1,5 +1,8 @@
 <?php require_once '../header.php'; ?>
-
+<style type="text/css">
+  body {
+    background-color: #87CEFA }
+  </style>
 <div class="login">
   <div class="login-triangle"></div>
   

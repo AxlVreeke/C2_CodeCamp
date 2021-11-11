@@ -49,9 +49,14 @@ body{
     border: 12px solid transparent;
     border-bottom-color: #28d;
   } */
-
+.map_zoom:hover{
+    cursor: pointer;
+}
+.map_zoom{
+    padding: 2px;
+}
 .login-header {
-    background: black;
+    background: #00BFFF;
     padding: 20px;
     font-size: 1.4em;
     font-weight: normal;
@@ -117,7 +122,7 @@ body{
     border-color: rgb(15, 15, 15);
 }
 .login_form{
-  background-color: black;
+  background-color: #00BFFF;
   color: white;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -701,7 +706,12 @@ html{
     width: 20px;
     margin: 10px;
 }
-
+/* .container{
+    background-color: blue;
+} */
+.index-cool{
+    background-color: lightblue;
+}
 .font-decor:hover {
     border: none;
 }
