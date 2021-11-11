@@ -814,3 +814,14 @@ iframe {
     display: flex;
     justify-content: space-around;
 }
+
+.edit-form{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.opslaan{
+    text-align: center;
+    margin-top: 100px;
+}
