@@ -24,7 +24,8 @@ CREATE TABLE IF NOT EXISTS boeken (
 
 
 INSERT INTO boeken (title, author, price, description) VALUES
-('Dolfje Weerwolfje', 'Logan Paul', 12, 'goed boek bro');
+('Dolfje Weerwolfje', 'Logan Paul', 12, 'goed boek bro'),
+('Undercover', 'Eva burgers', 13, 'Bij een overval op een huis is iemand om het leven gekomen. Amy (17) vraagt zich af of haar vriend Ivar, die een crimineel verleden heeft, daarbij betrokken is. Ze zag hem immers uit het huis rennen. Wat moet ze doen, naar de politie gaan of is het daarvoor te laat?');
 
 --
 -- Tabel: users
