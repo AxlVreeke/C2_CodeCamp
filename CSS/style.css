@@ -295,7 +295,7 @@ body{
 
 nav {
     border-bottom: black solid 1px;
-    background-color: #e7e7e7;
+    background-color: #e6e3e3;
     box-shadow: 3px;
 }
 
@@ -472,7 +472,7 @@ nav {
 .nav-title {
     padding: 5px;
     margin: auto;
-    background-color: #e7e7e7;
+    background-color: #e6e3e3;
 }
 
 .nav-title-style {
