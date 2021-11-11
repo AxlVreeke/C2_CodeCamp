@@ -558,12 +558,12 @@ img.boeken {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 50px;
 }
 
 .text {
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 45px;
     border-radius: 50px;
     height: 700px;
@@ -628,7 +628,7 @@ h1 {
 }
 
 .blue {
-    background-color: #4682b4;
+    background-color: #4099e2;
     border-radius: 50px;
 }
 
@@ -656,7 +656,7 @@ h1 {
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgb(228, 228, 11);
     border-radius: 50px;
 }
 
@@ -665,8 +665,12 @@ h1 {
     border-radius: 50px;
 }
 
+.background-yellow{
+    background-color: rgb(255, 255, 71);
+}
+
 .background-blue {
-    background-color: lightblue;
+    background-color: #87CEFA;
 }
 
 .background-red {
@@ -685,6 +689,18 @@ h1 {
     background-color: #bcabee;
 }
 
+/* TORBEN HEEFT GELIJK SPRINT 3 STYLING */
+
+/* Styling Item pagina's */
+
+/* .image-size{
+    max-width: 100%;  
+    height: auto; 
+}
+
+.item-styling{
+    height: 1;
+} */
 
 /* scrollbar */
 
