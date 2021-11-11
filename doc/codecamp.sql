@@ -26,4 +26,20 @@ CREATE TABLE IF NOT EXISTS boeken (
 INSERT INTO boeken (title, author, price, description) VALUES
 ('Dolfje Weerwolfje', 'Logan Paul', 12, 'goed boek bro');
 
+--
+-- Tabel: users
+--
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE IF NOT EXISTS users (
+  user_id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  PRIMARY KEY (user_id)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO users (username, password) VALUES
+('Axl', 'pass123'),
+('Robin', 'pass123');
+
 
