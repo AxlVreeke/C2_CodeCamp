@@ -36,9 +36,9 @@
               <a href="<?= $base_url ?>/resources/song-pagina/killer-queen.php">Killer queen (Queen)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMuse.php">Uprising (Muse)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/plug-in-baby.php">Plug in baby (Muse)</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (Muse)</a>
+              <a href="<?= $base_url ?>/resources/song-pagina/madness.php">Madness (use)</a>
               <a href="<?= $base_url ?>/resources/song-pagina/uprisingMyBaby.php">Uprising (My Baby)</a>
-              <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a>
+              <!-- <a href="<?= $base_url ?>/resources/song-pagina/transylvania.php">Transylvania (Iron Maiden)</a> DELETED -->
             </div>
           </div>
           <div class="dropdown">
@@ -99,18 +99,6 @@
               </ul>
             </li>
           </ul>
-          <div class="dropdown">
-            <button class="dropbtn"><b>Overige Links</b>
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-              <a href="https://www.imdb.com/">IMDB</a>
-              <a href="https://www.videoland.com/nl/">Videoland</a>
-              <a href="https://www.movies.nl/">Movies.nl</a>
-            </div>
-          </div>
-          <div class="dropdown">
             <a href="<?= $base_url ?>/resources/login.php">
               <button class="button_home" type="button"><b>Log in</b></button>
             </a>
