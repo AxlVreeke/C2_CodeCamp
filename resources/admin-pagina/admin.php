@@ -19,7 +19,7 @@
         <tr>
             <td><?php echo $boek['title']; ?></td>
             <td><?php echo $boek['author']; ?></td>
-            <td><?php echo $boek['price']; ?></td>
+            <td>€<?php echo $boek['price']; ?></td>
             <td><?php echo $boek['pages']; ?></td>
             <td><a href="edit.php?id=<?php echo $boek['id']; ?>">aanpassen</a></td>
         </tr>
