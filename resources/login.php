@@ -8,7 +8,8 @@
   <form class="login-container">
     <p><input type="email" placeholder="Email"></p>
     <p><input type="password" placeholder="Password"></p>
-    <p><input type="submit" value="Log in"></p>
+    <!-- <p><input type="submit" value="Log in"></p> -->
+    <a class="login_form" href="<?= $base_url ?>/resources/admin-pagina/admin.php">Log in</a>
   </form>
 </div>
 
