@@ -10,7 +10,7 @@
 </body>
 <div class="container blue">
   <div class="item scrollbar">
-    <div class="item-title">
+    <div class="item-title white">
       <h1>Hamers</h1>
     </div>
     <div class="item-text white">
