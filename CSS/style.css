@@ -6,9 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+body{
     padding-bottom: 100px;
-}
+  }
 
 .container_bc {
     width: 70%;
@@ -141,12 +141,12 @@ body {
 }
 
 .breadcrumb li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 0 10px 65px;
     background: darkgray;
     /* fallback color */
-    background: darkgray;
+    background: rgb(100, 100, 100);
     position: relative;
     display: block;
     float: left;
@@ -160,7 +160,7 @@ body {
     border-top: 50px solid transparent;
     /* Go big on the size, and let overflow hide */
     border-bottom: 50px solid transparent;
-    border-left: 30px solid darkgray;
+    border-left: 30px solid rgb(100, 100, 100);
     position: absolute;
     top: 50%;
     margin-top: -50px;
@@ -175,7 +175,7 @@ body {
     height: 0;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-left: 30px solid white;
+    /* border-left: 30px solid transparent;  */
     position: absolute;
     top: 50%;
     margin-top: -50px;
@@ -188,46 +188,39 @@ body {
     padding-left: 10px;
 }
 
-.breadcrumb li:not(:first-child) a {
-    background: lightgray;
+.breadcrumb li:not(:first-child) a{
+    background: lightgrey;
 }
 
-.breadcrumb li:not(:first-child) a:after {
-    border-left-color: lightgray;
+.breadcrumb li:not(:first-child) a:after{
+    border-left-color: lightgrey;
     padding-left: 10px;
 }
 
 .breadcrumb li:nth-child(2) a {
-    background: lightgray;
+    background: rgb(150, 150, 150);
 }
 
 .breadcrumb li:nth-child(2) a:after {
-    border-left-color: lightgray;
+    border-left-color: rgb(150, 150, 150);
 }
 
 .breadcrumb li:nth-child(3) a {
-    background: lightgray;
+    background: rgb(200, 200, 200);
 }
 
 .breadcrumb li:nth-child(3) a:after {
-    border-left-color: lightgray;
+    border-left-color: rgb(200, 200, 200);
 }
 
-.breadcrumb li:nth-child(4) a {
-    background: lightgray;
+/* .breadcrumb li:nth-child(4) a {
+    background: lightgrey;
 }
 
 .breadcrumb li:nth-child(4) a:after {
-    border-left-color: lightgray;
-}
+    border-left-color: lightgrey;
+} */
 
-.breadcrumb li:nth-child(5) a {
-    background: lightgray;
-}
-
-.breadcrumb li:nth-child(5) a:after {
-    border-left-color: lightgray;
-}
 
 .breadcrumb li:last-child a {
     background: transparent !important;
@@ -532,8 +525,6 @@ img.boeken {
     grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
     margin-top: 50px;
     padding: 50px;
-    border: black 1px solid;
-    border-radius: 50px;
 }
 
 .text {
@@ -625,17 +616,17 @@ h1 {
 }
 
 .green {
-    background-color: #28d350;
+    background-color: #1dcf47;
     border-radius: 50px;
 }
 
 .yellow {
-    background-color:  #e9d200;
+    background-color: yellow;
     border-radius: 50px;
 }
 
 .purple {
-    background-color: rgb(156, 126, 216);
+    background-color: #CBC3E3;
     border-radius: 50px;
 }
 
@@ -647,20 +638,12 @@ h1 {
     background-color: rgb(248, 81, 81);
 }
 
-.background-oranje {
+.background-orange {
     background-color: rgb(255, 191, 72);
 }
 
-.background-green{
+.background-green {
     background-color: #5cdb79;
-}
-
-.background-purple{
-    background-color: rgb(175, 154, 216);
-}
-
-.background-yellow{
-    background-color: #ffec3d;
 }
 
 
@@ -690,10 +673,9 @@ h1 {
     background: #555;
 }
 
-html {
+html{
     overflow: hidden;
 }
-
 
 /* links */
 
@@ -726,19 +708,8 @@ html {
 
 
 /* Footer Styling */
-
 footer {
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
-    color: black;
-    padding: 10px 0px 10px 0px;
-    border-top: 1px black solid;
-}
-
-footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #e6e3e3;
@@ -761,11 +732,4 @@ footer img {
 
 footer img a {
     text-decoration: none;
-}
-
-.footer-image {
-    display: flex;
-    gap: 40px;
-    display: ruby;
-    ;
 }
