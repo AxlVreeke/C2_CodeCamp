@@ -1,4 +1,11 @@
 <?php require_once '../../header.php'; ?>
+<?php
+    require_once '../../backend/conn.php';
+    $query = "SELECT * FROM boeken";
+    $statement = $conn->prepare($query);
+    $statement->execute();
+    $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
+?>
 <body class="background-blue">
 <div class="container_bc">
  <ul class="breadcrumb">
@@ -22,9 +29,11 @@
         </p>
       </div>
       <div class="item-text-2 white">
+        <h2>Beschikbare boeken:</h2>
         <p>
-        De Romeinen schreven hun notities op wastafeltjes. Zo'n wastafel bestond uit een plankje met een klein opstaand randje waarin bijenwas was aangebracht. Met een stift (een stilus) kraste men dan de boodschap in de was. Als de boodschap niet meer actueel was, streek men de was weer glad en kon het wastafeltje opnieuw gebruikt worden. Voor langere boodschappen gebruikte men meerdere wastafeltjes. Als die vervolgens met een (leren) scharniertje met elkaar verbonden werden, ontstond er een soort boekvorm (codex). Het boek zoals wij dat kennen is zodoende waarschijnlijk een Romeinse uitvinding.
-        Men zag al snel de voordelen van een codex ten opzichte van de gebruikelijke boekrol. De codex is handiger bij het opzoeken van informatie door te bladeren, waarbij een boekrol meestal een heel stuk afgerold moet worden. Een codex kan veel meer informatie bevatten (omdat van de bladen beide zijden gebruikt worden) en is bovendien veel robuuster door de stevige boekband dan de scheurgevoelige boekrol. Vanaf het begin van de christelijke jaartelling verdrong de codex dan ook snel de boekrol. Enkel bij rekeningen en processtukken bleef de rol tot ver in de late Middeleeuwen de dominante schriftdrager.
+        <?php foreach($boeken as $boek): ?>
+          <p><?php echo $boek['title']; ?></p>
+        <?php endforeach; ?>
         </p>
       </div>
       <div class="img-boeken">
