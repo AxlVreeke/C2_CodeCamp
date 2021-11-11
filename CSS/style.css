@@ -122,8 +122,9 @@ body{
   padding: 0.5em 1em;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 135px;
+  margin-left: 145px;
   font-family: inherit;
+  border-radius: 4px;
 }
 .login_form:hover{
     background: #333333;
