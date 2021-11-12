@@ -138,7 +138,7 @@ tr:hover {
 }
 
 .login_form {
-    background-color: black;
+    background-color: #00BFFF;
     color: white;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -149,7 +149,7 @@ tr:hover {
 }
 
 .login_form:hover {
-    background: #333333;
+    background: skyblue;
 }
 
 
