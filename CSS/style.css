@@ -336,6 +336,7 @@ nav {
     align-items: center;
 }
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -361,6 +362,7 @@ nav {
     font-family: inherit;
     margin: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .button_home {
@@ -373,6 +375,7 @@ nav {
     font-family: inherit;
     margin: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .button_home:hover {
@@ -501,6 +504,7 @@ nav {
     padding: 5px;
     margin: auto;
     background-color: #e6e3e3;
+    cursor: pointer;
 }
 
 .nav-title-style {
