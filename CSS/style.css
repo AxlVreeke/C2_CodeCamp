@@ -1,75 +1,67 @@
-* {
+    * {
     border: 0;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+    
 body {
     padding-bottom: 100px;
 }
-
+    
 .container_bc {
     width: 70%;
     margin: auto;
     margin-top: 10px;
 }
-
+    
 *:first-letter {
     text-transform: uppercase;
 }
-
-
 /* Log in styling begin */
 
 .login {
-    width: 400px;
-    margin: 200px auto;
+    width: 600px;
+    margin: 50px auto;
     font-size: 16px;
 }
-
-
 /* Reset top and bottom margins from certain elements */
-
+    
 .login-header,
 .login p {
     margin-top: 1px;
     margin-bottom: 0;
 }
-
-
 /* The triangle form is achieved by a CSS hack */
-
-
 /* .login-triangle {
-    width: 0;
-    margin-right: auto;
-    margin-left: auto;
-    border: 12px solid transparent;
-    border-bottom-color: #28d;
-  } */
-
+width: 0;
+margin-right: auto;
+margin-left: auto;
+border: 12px solid transparent;
+border-bottom-color: #28d;
+} */
+    
 .map_zoom:hover {
     cursor: pointer;
 }
-
+    
 .map_zoom {
     padding: 2px;
 }
-
+    
 tr:nth-child(odd) {
     background-color: lightblue;
 }
-
+    
 tr:first-child {
     background-color: #00BFFF;
 }
-
+    
 tr:hover {
     background-color: #00BFFF;
 }
-
+    
 .login-header {
     background: #00BFFF;
     padding: 20px;
@@ -79,19 +71,17 @@ tr:hover {
     text-transform: uppercase;
     color: #fff;
 }
-
+    
 .login-container {
     background: #ebebeb;
     padding: 12px;
 }
-
-
 /* Every row inside .login-container is defined with p tags */
-
+    
 .login p {
     padding: 14px;
 }
-
+    
 .login input {
     box-sizing: border-box;
     display: block;
@@ -103,36 +93,32 @@ tr:hover {
     font-family: inherit;
     font-size: 0.95em;
 }
-
+    
 .login input[type="email"],
 .login input[type="password"] {
     background: #fff;
     border-color: #bbb;
     color: #555;
 }
-
-
 /* Text fields' focus effect */
-
+    
 .login input[type="email"]:focus,
 .login input[type="password"]:focus {
     border-color: #888;
 }
-
+    
 .login input[type="submit"] {
     background: black;
     border-color: transparent;
     color: #fff;
     cursor: pointer;
 }
-
+    
 .login input[type="submit"]:hover {
     background: #333333;
 }
-
-
 /* Buttons' focus effect */
-
+    
 .login input[type="submit"]:focus {
     border-color: rgb(15, 15, 15);
 }
@@ -140,41 +126,43 @@ tr:hover {
 .login_form {
     background-color: #00BFFF;
     color: white;
-    padding: 0.5em 1em;
+    padding: 0.5em 16em;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 145px;
+    margin: auto;
     font-family: inherit;
     border-radius: 4px;
+    display: flex;
 }
 
+.login_form:hover{
+    transition: ease-in 1s;
+    background-color: lightblue;
+}
+    
 .login_form:hover {
     background: skyblue;
 }
-
-
 /* log in styling einde */
-
-
 /* kruimelpad begin */
-
+    
 .breadcrumb {
     list-style: none;
     overflow: hidden;
     font: 18px Sans-Serif;
     background-color: transparent;
 }
-
+    
 .container_bc {
     width: 70%;
     margin: auto;
     margin-top: 10px;
 }
-
+    
 .breadcrumb li {
     float: left;
 }
-
+    
 .breadcrumb li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -186,7 +174,7 @@ tr:hover {
     display: block;
     float: left;
 }
-
+    
 .breadcrumb li a::after {
     content: " ";
     display: block;
@@ -202,7 +190,7 @@ tr:hover {
     left: 100%;
     z-index: 2;
 }
-
+    
 .breadcrumb li a::before {
     content: " ";
     display: block;
@@ -218,63 +206,59 @@ tr:hover {
     left: 100%;
     z-index: 1;
 }
-
+    
 .breadcrumb li:first-child a {
     padding-left: 10px;
 }
-
+    
 .breadcrumb li:not(:first-child) a {
     background: transparent;
 }
-
+    
 .breadcrumb li:not(:first-child) a:after {
     border-left-color: transparent;
     padding-left: 10px;
 }
-
+    
 .breadcrumb li:nth-child(2) a {
     background: rgb(150, 150, 150);
 }
-
+    
 .breadcrumb li:nth-child(2) a:after {
     border-left-color: rgb(150, 150, 150);
 }
-
+    
 .breadcrumb li:nth-child(3) a {
     background: rgb(200, 200, 200);
 }
-
+    
 .breadcrumb li:nth-child(3) a:after {
     border-left-color: rgb(200, 200, 200);
 }
-
-
 /* .breadcrumb li:nth-child(4) a {
-    background: transparent;
+background: transparent;
 }
 
 .breadcrumb li:nth-child(4) a:after {
-    border-left-color: transparent;
+border-left-color: transparent;
 } */
-
+    
 .breadcrumb li:last-child a {
     background: transparent !important;
     color: black;
     pointer-events: none;
     cursor: default;
 }
-
+    
 .breadcrumb li:last-child a::after {
     border: 0;
 }
-
-
 /* kruimelpad einde */
-
+    
 .round {
     border-radius: 50%;
 }
-
+    
 .index-cool {
     border-radius: 50px;
     font-size: 30px;
@@ -285,12 +269,12 @@ tr:hover {
     padding-right: 20px;
     margin-top: 50px;
 }
-
+    
 .logo-codecamp {
     height: 80px;
     margin: 0px
 }
-
+    
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 .live-time {
     display: flex;
@@ -306,13 +290,13 @@ tr:hover {
     align-items: center;
     margin-top: 50px;
 }
-
+    
 .container {
     width: 70%;
     margin: auto;
     height: 100%;
 }
-
+    
 .a {
     width: 70%;
     margin: auto;
@@ -320,38 +304,35 @@ tr:hover {
     justify-content: space-between;
     align-items: center;
 }
-
+    
 nav {
     border-bottom: black solid 1px;
     background-color: #e6e3e3;
     box-shadow: 3px;
 }
-
+    
 .logo_codecamp {
     width: 100px;
 }
-
+    
 .buttons-nav {
     display: flex;
     align-items: center;
 }
-
-
+    
 .header-container {
     display: flex;
     justify-content: space-between;
     margin: auto;
     width: 70%;
 }
-
+    
 .dropdown {
     float: left;
     overflow: hidden;
 }
-
-
 /* Dropdown button */
-
+    
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -364,7 +345,7 @@ nav {
     margin-top: 10px;
     cursor: pointer;
 }
-
+    
 .button_home {
     font-size: 16px;
     border: none;
@@ -377,22 +358,18 @@ nav {
     margin-top: 10px;
     cursor: pointer;
 }
-
+    
 .button_home:hover {
     background-color: lightgray;
 }
-
-
 /* Add a red background color to navbar links on hover */
-
+    
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: lightgray;
 }
-
-
 /* Dropdown content (hidden by default) */
-
+    
 .dropdown-content {
     display: none;
     position: absolute;
@@ -401,10 +378,8 @@ nav {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
-
 /* Links inside the dropdown */
-
+    
 .dropdown-content a {
     float: none;
     color: black;
@@ -413,21 +388,17 @@ nav {
     display: block;
     text-align: left;
 }
-
-
 /* Add a grey background color to dropdown links on hover */
-
+    
 .dropdown-content a:hover {
     background-color: lightgrey;
 }
-
-
 /* Show the dropdown menu on hover */
-
+    
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+    
 .third-level-menu {
     position: absolute;
     top: 0;
@@ -440,12 +411,12 @@ nav {
     color: #000000;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
+    
 .third-level-menu>li {
     height: 50px;
     color: #000000;
 }
-
+    
 .second-level-menu {
     position: absolute;
     top: 40px;
@@ -457,24 +428,24 @@ nav {
     display: none;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
+    
 .second-level-menu>li {
     position: relative;
     height: 50px;
     color: #000000;
 }
-
+    
 .font-color-content {
     display: block;
 }
-
+    
 .top-level-menu {
     list-style: none;
     padding: 0;
     margin: 0;
     color: #000000;
 }
-
+    
 .top-level-menu>li {
     position: relative;
     float: left;
@@ -482,81 +453,77 @@ nav {
     width: 100px;
     color: #000000;
 }
-
+    
 .top-level-menu li:hover>ul {
     /* On hover, display the next level's menu */
     display: inline;
     color: #000000;
 }
-
+    
 .font-color {
     color: #000000;
     padding-top: 5px;
     background-color: white;
     padding: 15px;
 }
-
+    
 .font-color:hover {
     background-color: lightgray;
 }
-
+    
 .nav-title {
     padding: 5px;
     margin: auto;
     background-color: #e6e3e3;
     cursor: pointer;
 }
-
+    
 .nav-title-style {
     margin: auto;
     display: flex;
     justify-content: center;
 }
-
+    
 .scrollbar {
     overflow-y: auto;
     height: 700px;
 }
-
-
 /* Menu Link Styles */
-
+    
 .top-level-menu a
 /* Apply to all links inside the multi-level menu */
-
+    
 {
     text-decoration: none;
     /* Make the link cover the entire list item-container */
     display: block;
     line-height: 30px;
 }
-
+    
 .top-level-menu a:hover {
     color: #000000;
 }
-
-
 /* items */
-
+    
 .item-title {
     grid-area: header;
 }
-
+    
 .item-text {
     grid-area: main;
     font-weight: bold;
     padding-right: 50px;
 }
-
+    
 img.boeken {
     grid-area: sidebar;
 }
-
+    
 .item-text-2 {
     grid-area: footer;
     margin-top: 50px;
 }
-
+    
 .item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -565,7 +532,7 @@ img.boeken {
     margin-top: 20px;
     padding: 50px;
 }
-
+    
 .text {
     margin-top: 20px;
     padding: 45px;
@@ -575,19 +542,19 @@ img.boeken {
     width: 100%;
     left: 0px;
 }
-
+    
 h1 {
     margin-bottom: 10px;
     margin-left: 5px;
 }
-
+    
 .img-item {
     height: 100%;
     width: 150%;
     border: black solid 1px;
     border-radius: 10px;
 }
-
+    
 .img-rooger {
     height: 100%;
     width: 40%;
@@ -595,123 +562,114 @@ h1 {
     border: black solid 1px;
     border-radius: 10px;
 }
-
-
 /* .items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 5px;
 } */
-
+    
 .lyrics-red {
     color: #ad2323;
     border-radius: 50px;
     padding-top: 20px;
 }
-
+    
 .doorklikken {
     text-align: center;
     margin-top: 20px;
     padding-bottom: 20px;
 }
-
+    
 .doorklikken a {
     text-decoration: none;
 }
-
-
 /* songs */
-
+    
 .lyrics-content {
     display: flex;
     justify-content: space-between;
 }
-
+    
 .lyrics {
     padding-top: 20px;
 }
-
+    
 .blue {
     background-color: #4099e2;
     border-radius: 50px;
 }
-
+    
 .white {
     color: white;
 }
-
+    
 .dark-red {
     color: #ad2323;
 }
-
+    
 .red {
     background-color: #cc0000;
     border-radius: 50px;
 }
-
+    
 .orange {
     background-color: orange;
     border-radius: 50px;
 }
-
+    
 .green {
     background-color: #14ce3f;
     border-radius: 50px;
 }
-
+    
 .yellow {
     background-color: rgb(228, 228, 11);
     border-radius: 50px;
 }
-
+    
 .purple {
     background-color: #957be4;
     border-radius: 50px;
 }
-
-.background-yellow{
+    
+.background-yellow {
     background-color: rgb(255, 255, 71);
 }
-
+    
 .background-blue {
     background-color: #87CEFA;
 }
-
+    
 .background-red {
     background-color: rgb(248, 81, 81);
 }
-
+    
 .background-orange {
     background-color: rgb(255, 191, 72);
 }
-
+    
 .background-green {
     background-color: #5cdb79;
 }
-
+    
 .background-purple {
     background-color: #bcabee;
 }
-
 /* TORBEN HEEFT GELIJK SPRINT 3 STYLING */
-
 /* Styling Item pagina's */
-
-.image-size{
-    max-width: 100%;  
-    height: auto; 
+    
+.image-size {
+    max-width: 100%;
+    height: auto;
 }
-
 /* .long-image{
-    image
+image
 } */
-
 /* .item-styling{
-    height: 1;
+height: 1;
 } */
-
 /* scrollbar */
-
+    
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -720,29 +678,27 @@ h1 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
+    
 ::-webkit-scrollbar {
     width: 12px;
     background-color: transparent;
 }
-
+    
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: gray;
 }
-
+    
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
+    
 html {
     overflow: hidden;
 }
-
-
 /* links */
-
+    
 .font-decor {
     color: #000000;
     text-decoration: none;
@@ -753,20 +709,18 @@ html {
     width: 20px;
     margin: 10px;
 }
-
-
 /* .container{
-    background-color: blue;
+background-color: blue;
 } */
-
+    
 .font-decor:hover {
     border: none;
 }
-
+    
 .bullet-remove {
     list-style-type: none;
 }
-
+    
 .link-items {
     display: flex;
     align-items: center;
@@ -774,20 +728,18 @@ html {
     width: 100%;
     margin-top: 50px;
 }
-
-
 /* Footer Styling */
-
+    
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #e6e3e3;
+    background-color: #cdcdcd4d;
     color: black;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
 }
-
+    
 .footer_container {
     width: 70%;
     margin: auto;
@@ -795,107 +747,98 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
+    
 footer img {
     width: 40px;
 }
-
+    
 footer img a {
     text-decoration: none;
 }
-
-.wave1 {
-    position: absolute;
-    height: 500px;
-    width: 2000px;
-    background-color: #4099e2;
-    bottom: -100px;
-    left: -780px;
-    border-radius: 50%;
-}
-
-.wave2 {
-    position: absolute;
-    height: 500px;
-    width: 2200px;
-    background-color: #4099e2;
-    bottom: -120px;
-    right: -500px;
-    border-radius: 90%;
-}
-
+    
 .homepage-color {
     background-color: #e7e7e7;
 }
-
+    
 iframe {
     width: 500px;
     min-height: 24vh;
     border-radius: 20px;
 }
-
+    
 .contactinformatie {
     display: flex;
     justify-content: space-around;
-    background-color: #4099e2;
+    background-color: #a2d9ff;
     padding: 25px;
     border-radius: 20px;
 }
-
-.edit-form{
+    
+.edit-form {
     display: flex;
     justify-content: space-around;
     margin-top: 125px;
 }
-
-.opslaan-button{
+    
+.opslaan-button {
     display: flex;
     width: 100%;
     margin: auto;
     margin-top: 40px;
     justify-content: center;
 }
-
-.opslaan-button a{
+    
+.opslaan-button a {
     text-decoration: none;
     color: black;
     font-size: large;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     background-color: #87CEFA;
     border-radius: 10px;
     border: solid #4099e2 1px;
 }
-
-td{
-    padding:    10px;
+    
+td {
+    padding: 10px;
 }
-
-td a{
+    
+td a {
     color: darkblue;
     font-weight: bold;
     text-decoration: none;
 }
-
-th{
+    
+th {
     padding: 10px;
 }
-
-.edit-form input{
+    
+.edit-form input {
     background-color: #87CEFA;
     padding: 10px;
     border: solid #4099e2 1px;
     border-radius: 10px;
 }
-
-.edit-form textarea{
+    
+.edit-form textarea {
     background-color: #87CEFA;
     padding: 10px;
     border: solid #4099e2 1px;
     border-radius: 10px;
 }
-
-.item-edit{
+    
+.item-edit {
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
+    .edit-form {
+        margin-top: 100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .opslaan {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .waves {
+        min-height: 100px;
+    }
