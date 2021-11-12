@@ -1,13 +1,14 @@
 <?php require_once '../../../header.php' ?>
+
 <body class="background-purple">
-<div class="container_bc">
- <ul class="breadcrumb">
-    <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
-    <li class="breadcrumb-item"> <a href="#">Dranken</a></li>
-    <li class="breadcrumb-item"> <a href="#">Warme Dranken</a></li>
-    <li class="breadcrumb-item"> <a href="#">Latte</a></li>
- </ul>
-</div>
+  <div class="container_bc">
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"> <a href="<?= $base_url ?>/index.php">Home</a></li>
+      <li class="breadcrumb-item"> <a href="#">Dranken</a></li>
+      <li class="breadcrumb-item"> <a href="#">Warme Dranken</a></li>
+      <li class="breadcrumb-item"> <a href="#">Latte</a></li>
+    </ul>
+  </div>
 </body>
 </div>
 <div class="container purple">
@@ -17,8 +18,15 @@
     </div>
     <div class="item-text">
       <p>
-        Caffè latte (Italian: [kafˌfɛ lˈlatte, kaffe lˈlatte]), often shortened to just latte (/ˈlɑːteɪ, ˈlæteɪ/)[1][2] in English, is a coffee drink of Italian origin made with espresso and steamed milk.
-        The term comes from the Italian caffellatte[3] or caffè latte, from caffè e latte, literally "coffee and milk"; in English orthography either or both words sometimes have an accent on the final e (a hyperforeignism or to indicate it is pronounced, not the more-common silent final e of English). In northern Europe and Scandinavia, the term café au lait has traditionally been used for the combination of espresso and milk. In France, café latte is from the original name of the drink (caffè latte); a combination of espresso and steamed milk equivalent to a "latte" is in French called grand crème and in German Milchkaffee or (in Austria) Wiener Melange.
+        Caffè latte (Italian: [kafˌfɛ lˈlatte, kaffe lˈlatte]), often shortened to just latte (/ˈlɑːteɪ, ˈlæteɪ/) in English,
+        is a coffee drink of Italian origin made with espresso and steamed milk.
+        The term comes from the Italian caffellatte
+        or caffè latte, from caffè e latte, literally "coffee and milk";
+        in English orthography either or both words sometimes have an accent on the final e (a hyperforeignism or to indicate it is pronounced,
+        not the more-common silent final e of English). In northern Europe and Scandinavia,
+        the term café au lait has traditionally been used for the combination of espresso and milk.
+        In France, café latte is from the original name of the drink (caffè latte);
+        a combination of espresso and steamed milk equivalent to a "latte" is in French called grand crème and in German Milchkaffee or (in Austria) Wiener Melange.
       </p>
     </div>
     <div class="item-text-2">
@@ -32,4 +40,5 @@
     </div>
   </div>
 </div>
+
 <?php require_once "../../../footer.php"; ?>

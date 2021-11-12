@@ -551,11 +551,10 @@ h1 {
 }
     
 .img-rooger {
-    height: 100%;
-    width: 40%;
-    margin-left: 650px;
+    height: auto;
+    width: auto;
     border: black solid 1px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 /* .items {
 display: grid;

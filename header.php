@@ -17,7 +17,7 @@
       <div class="header-container">
         <div class="img-nav">
           <a href="<?= $base_url ?>/index.php">
-          <img src="<?= $base_url ?>/IMG/codecamplogo.png" class="logo-codecamp" alt="logo">
+            <img src="<?= $base_url ?>/IMG/codecamplogo.png" class="logo-codecamp" alt="logo">
           </a>
         </div>
         <div class="buttons-nav">
@@ -84,7 +84,7 @@
                   <a href="#" class="font-color">Acteurs</a>
                   <ul class="third-level-menu">
                     <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/george-clooney.php">George Clooney</a></li>
-                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/rooger-moore.php">Rooger Moore</a></li>
+                    <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/rooger-moore.php">Roger Moore</a></li>
                     <li><a class="font-color" href="<?= $base_url ?>/resources/info-pagina/acteurs/timothy-dalton.php">Timothy Dalton</a></li>
                   </ul>
                 </li>
@@ -99,13 +99,13 @@
               </ul>
             </li>
           </ul>
-            <a href="<?= $base_url ?>/resources/login.php">
-              <button class="button_home" type="button"><b>Log in</b></button>
-            </a>
-          </div>
+          <a href="<?= $base_url ?>/resources/login.php">
+            <button class="button_home" type="button"><b>Log in</b></button>
+          </a>
         </div>
+      </div>
       </div>
     </nav>
   </header>
 </body id="page-container">
-<div class="content-wrap1"id="content-wrap">
+<div class="content-wrap1" id="content-wrap">
