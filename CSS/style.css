@@ -23,7 +23,7 @@ body {
 
 .login {
     width: 600px;
-    margin: 60px auto;
+    margin: 50px auto;
     font-size: 16px;
 }
 /* Reset top and bottom margins from certain elements */
@@ -133,6 +133,11 @@ tr:hover {
     font-family: inherit;
     border-radius: 4px;
     display: flex;
+}
+
+.login_form:hover{
+    transition: ease-in 1s;
+    background-color: lightblue;
 }
     
 .login_form:hover {
@@ -729,7 +734,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #e6e3e3;
+    background-color: #cdcdcd4d;
     color: black;
     padding: 10px 0px 10px 0px;
     border-top: 1px black solid;
