@@ -32,7 +32,7 @@
         </div>
     </form>
 </div>
-<div class="opslaan">
+<div class="opslaan-button">
     <button><a href="../../">Opslaan</a></button>
 </div>
 
