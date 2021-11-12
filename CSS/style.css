@@ -853,21 +853,27 @@ td{
     padding:    10px;
 }
 
+td a{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 th{
     padding: 10px;
 }
 
 .edit-form input{
-    background-color: lightgray;
+    background-color: #87CEFA;
     padding: 10px;
-    border: solid gray 1px;
+    border: solid #4099e2 1px;
     border-radius: 10px;
 }
 
 .edit-form textarea{
-    background-color: lightgray;
+    background-color: #87CEFA;
     padding: 10px;
-    border: solid gray 1px;
+    border: solid #4099e2 1px;
     border-radius: 10px;
 }
 
