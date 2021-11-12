@@ -32,7 +32,9 @@
         <h2>Beschikbare boeken:</h2>
         <p>
         <?php foreach($boeken as $boek): ?>
-          <p><?php echo $boek['title']; ?></p>
+          <h4><?php echo $boek['title']; ?> - <?php echo $boek['author']; ?></h4>
+          <p><?php echo $boek['description']; ?></p>
+          <br>
         <?php endforeach; ?>
         </p>
       </div>
