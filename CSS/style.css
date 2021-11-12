@@ -848,3 +848,11 @@ iframe {
     text-align: center;
     margin-top: 100px;
 }
+
+td{
+    padding:    10px;
+}
+
+th{
+    padding: 10px;
+}
