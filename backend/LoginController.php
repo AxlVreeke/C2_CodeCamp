@@ -1,4 +1,4 @@
-<!-- 
+<!--
 session_start();
 
 $username = $_POST['username'];
@@ -14,3 +14,5 @@ if(!password_verify($password, $user['password']))
 }
 
 $_SESSION[user_id] = $user['id']; -->
+
+
