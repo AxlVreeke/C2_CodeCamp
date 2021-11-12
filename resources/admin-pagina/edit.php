@@ -9,7 +9,7 @@
     $boek = $statement->fetch(PDO::FETCH_ASSOC);
 ?>
 <div class="edit-form">
-    <form action="">
+    <form action="http://localhost/C2_CodeCamp/backend/boekenController.php" method="POST">
         <div class="item-edit">
             <label for="fname">Titel:</label>
             <input type="text" name="title" value="<?php echo $boek['title']; ?>">
@@ -28,13 +28,17 @@
         </div>
         <div class="item-edit">
             <label for="fname">Beschrijving:</label>
-            <textarea rows="4" cols="50" name="description" form="usrform"><?php echo $boek['description']; ?></textarea>
+            <textarea rows="4" cols="50" name="description" value="<?php echo $boek['description']; ?>"></textarea>
+        </div>
+        <input type="hidden" name="id" value="<?php echo $boek['id']; ?>">
+        <div class="opslaan-button">
+            <button type="submit" value="Submit">Opslaan</button>
         </div>
     </form>
 </div>
-<div class="opslaan-button">
+<!-- <div class="opslaan-button">
     <button><a href="../../">Opslaan</a></button>
-</div>
+</div> -->
 
 
 <?php require_once "../../footer.php"; ?>
