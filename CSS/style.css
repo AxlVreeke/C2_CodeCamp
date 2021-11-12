@@ -848,9 +848,22 @@ iframe {
     margin-top: 125px;
 }
 
-.opslaan button{
-    margin-top: 100px;
-    margin-left: 925px;
+.opslaan-button{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.opslaan-button a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 20px 20px ;
+    background-color: #87CEFA;
+    border-radius: 10px;
+    border: solid #4099e2 1px;
 }
 
 td{
