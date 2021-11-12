@@ -839,14 +839,14 @@ iframe {
 }
 
 .edit-form{
-    margin-top: 100px;
-    margin-left: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
 }
 
-.opslaan{
-    text-align: center;
+.opslaan button{
     margin-top: 100px;
+    margin-left: 925px;
 }
 
 td{
@@ -854,5 +854,25 @@ td{
 }
 
 th{
+    padding: 10px;
+}
+
+.edit-form input{
+    background-color: lightgray;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+.edit-form textarea{
+    background-color: lightgray;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+.item-edit{
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
