@@ -1,4 +1,4 @@
-* {
+    * {
     border: 0;
     box-sizing: border-box;
     margin: 0;
@@ -336,7 +336,6 @@ nav {
     align-items: center;
 }
 
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -669,7 +668,7 @@ h1 {
     border-radius: 50px;
 }
 
-.background-yellow{
+.background-yellow {
     background-color: rgb(255, 255, 71);
 }
 
@@ -693,22 +692,27 @@ h1 {
     background-color: #bcabee;
 }
 
+
 /* TORBEN HEEFT GELIJK SPRINT 3 STYLING */
+
 
 /* Styling Item pagina's */
 
-.image-size{
-    max-width: 100%;  
-    height: auto; 
+.image-size {
+    max-width: 100%;
+    height: auto;
 }
+
 
 /* .long-image{
     image
 } */
 
+
 /* .item-styling{
     height: 1;
 } */
+
 
 /* scrollbar */
 
@@ -804,26 +808,6 @@ footer img a {
     text-decoration: none;
 }
 
-.wave1 {
-    position: absolute;
-    height: 500px;
-    width: 2000px;
-    background-color: #4099e2;
-    bottom: -100px;
-    left: -780px;
-    border-radius: 50%;
-}
-
-.wave2 {
-    position: absolute;
-    height: 500px;
-    width: 2200px;
-    background-color: #4099e2;
-    bottom: -120px;
-    right: -500px;
-    border-radius: 90%;
-}
-
 .homepage-color {
     background-color: #e7e7e7;
 }
@@ -837,18 +821,18 @@ iframe {
 .contactinformatie {
     display: flex;
     justify-content: space-around;
-    background-color: #4099e2;
+    background-color: #a2d9ff;
     padding: 25px;
     border-radius: 20px;
 }
 
-.edit-form{
+.edit-form {
     display: flex;
     justify-content: space-around;
     margin-top: 125px;
 }
 
-.opslaan-button{
+.opslaan-button {
     display: flex;
     width: 100%;
     margin: auto;
@@ -856,46 +840,57 @@ iframe {
     justify-content: center;
 }
 
-.opslaan-button a{
+.opslaan-button a {
     text-decoration: none;
     color: black;
     font-size: large;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     background-color: #87CEFA;
     border-radius: 10px;
     border: solid #4099e2 1px;
 }
 
-td{
-    padding:    10px;
+td {
+    padding: 10px;
 }
 
-td a{
+td a {
     color: darkblue;
     font-weight: bold;
     text-decoration: none;
 }
 
-th{
+th {
     padding: 10px;
 }
 
-.edit-form input{
+.edit-form input {
     background-color: #87CEFA;
     padding: 10px;
     border: solid #4099e2 1px;
     border-radius: 10px;
 }
 
-.edit-form textarea{
+.edit-form textarea {
     background-color: #87CEFA;
     padding: 10px;
     border: solid #4099e2 1px;
     border-radius: 10px;
 }
 
-.item-edit{
+.item-edit {
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
+    .edit-form {
+        margin-top: 100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .opslaan {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .waves {
+        min-height: 100px;
+    }

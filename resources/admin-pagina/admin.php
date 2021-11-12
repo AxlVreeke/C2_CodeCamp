@@ -27,5 +27,6 @@
             </tr>
         <?php endforeach; ?>
     </table>
-</div>
+</table>
+
 <?php require_once "../../footer.php"; ?>
